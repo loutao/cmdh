@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.njucm.cmdh.app.activitys.ConstitutionActivity">
+    <item android:id="@+id/myconstitution" android:title="@string/title_activity_constitution"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/myhistory" android:title="@string/myhistory"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

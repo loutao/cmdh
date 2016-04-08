@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="1dp"
+                android:right="1dp" />
+            <solid android:color="#40CCCCCC" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <padding
+                android:bottom="1dp"
+                android:right="1dp" />
+            <stroke android:color="#60CCCCCC" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/white" />
+            <corners android:radius="1dp" />
+        </shape>
+    </item>
+    <!--    <item
+            android:top="3px"
+            android:left="3px">
+            <shape android:shape="rectangle">
+
+                <solid android:color="@color/Gainsboro" />
+
+            </shape>
+        </item>
+
+        &lt;!&ndash; ???? &ndash;&gt;
+        <item
+            android:bottom="5px"
+            android:right="4px">
+
+            <shape android:shape="rectangle">
+
+                <span style="white-space:pre"></span>
+                <solid android:color="@color/graphbottomcolor4" />
+
+            </shape>
+
+        </item>-->
+    <!-- <item>
+         <shape android:shape="rectangle">
+             <corners android:radius="@dimen/graphbottoncorners"/>
+             <solid android:color="@color/graphbottomcolor4" />
+         </shape>
+     </item>
+     <item
+         android:bottom="2dp"
+         android:top="2dp">
+         <shape android:shape="rectangle">
+             <corners android:radius="@dimen/graphbottoncorners" />
+             <solid android:color="@color/graphbottomcolor4" />
+         </shape>
+     </item>-->
+</layer-list>

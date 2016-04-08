@@ -1,0 +1,13 @@
+[
+    {
+        "userknowledgemappid": 2,
+        "healthknowledgetime": "2015-01-04 15:01:00",
+        "temp_picturelistid": "static/pictures/healthknowledge/shuimian.png",
+        "userid": 3,
+        "username": "王文捷",
+        "healthknowltypeid": 15,
+        "healthknowltypename": "作息知识",
+        "healthknowledgetitle": "作息知识",
+        "healthknowledgecontent": "为了保持蔬菜色泽，或除掉异味、涩味和草酸等，某些蔬菜烹调前必须进行焯水。但从营养学的角度分析，焯水可增加水溶性营养成分的损失，小白菜在100℃的水中烫两分钟，维生素C损失率高达65％；烫10分钟以上，维生素C几乎损失殆尽。因此，焯水应采用适当方法，尽量减少营养成分的损失。",
+    }
+]

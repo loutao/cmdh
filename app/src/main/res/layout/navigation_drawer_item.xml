@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.njucm.cmdh.app.navigations.NavigationDrawerItemView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:padding="@dimen/default_small_padding"
+    android:id="@+id/itemRR"
+    android:background="@drawable/navigation_drawer_list_item_bg">
+
+    <ImageView
+        android:id="@+id/navigationDrawerItemIconIV"
+        android:layout_width="@dimen/navigation_drawer_image_view_size"
+        android:layout_height="@dimen/navigation_drawer_image_view_size"
+        android:contentDescription="@string/content_description"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/default_small_padding"
+        android:visibility="gone" />
+
+    <com.beardedhen.androidbootstrap.FontAwesomeText
+        android:id="@+id/navigationDrawerItemIconMain"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/navigationDrawerItemTitleTV"
+        android:textSize="20sp"></com.beardedhen.androidbootstrap.FontAwesomeText>
+
+    <TextView
+        android:id="@+id/navigationDrawerItemTitleTV"
+        style="@style/Wrap"
+        android:textSize="@dimen/text_size_medium1"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+
+        android:text="@string/app_name"
+        android:typeface="serif"/>
+</com.njucm.cmdh.app.navigations.NavigationDrawerItemView>

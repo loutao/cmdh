@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/window_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout style="@style/top">
+
+        <ImageView
+            android:id="@+id/btn_close"
+            style="@style/ReturnBack_ImageButton_Style" />
+
+        <TextView
+            android:textSize="20.0sp"
+            android:textColor="@color/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bind_accessories"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="@android:color/background_dark"
+                android:id="@+id/has_found_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30.0dip"
+                android:text="@string/bind_accessories" />
+
+            <TextView
+                android:textSize="18.0sp"
+                android:textColor="@android:color/darker_gray"
+                android:gravity="left"
+                android:id="@+id/txt_des"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:text="@string/sure_bind_des" />
+
+            <ImageView
+                android:id="@+id/img_devicetype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100.0dip"
+                android:src="@drawable/icon_codoon_bleband_h" />
+
+            <Button
+                android:textSize="18.0sp"
+                android:textColor="@android:color/white"
+                android:id="@+id/btn_surebind"
+                android:background="@drawable/button_orange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30.0dip"
+                android:text="@string/button_surebind" />
+
+            <LinearLayout
+                android:gravity="right"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15.0dip">
+
+                <TextView
+                    android:textSize="18.0sp"
+                    android:textColor="@android:color/darker_gray"
+                    android:gravity="right"
+                    android:id="@+id/txt_research"
+                    android:padding="10.0dip"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10.0dip"
+                    android:text="@string/research1" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

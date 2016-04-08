@@ -1,0 +1,782 @@
+[
+    {
+        "exerciseid": 1,
+        "exercisename": "田径",
+        "exercisetypename": "田径运动",
+        "energywaste": "900.00",
+        "exercisetip": "要根据自身的情况选择活动内容，适当控制运动量。正确掌握动作要领",
+        "exerciseaffect": "能促进新陈代谢、协调神经系统与运动器官之间的联系，提高心血管系统、呼吸系统及其他内脏器官的机能；能全面发展力量、速度、耐力、灵敏、协调等身体素质，促进正常发育，提高健康水平；能促使走、跑、跳、投掷的技能更趋合理有效，从而保持和提高人体在生活和学习、工作中的适应能力；并可延缓人体衰老过程",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 1
+    },
+    {
+        "exerciseid": 2,
+        "exercisename": "跳高",
+        "exercisetypename": "田径运动",
+        "energywaste": "360.00",
+        "exercisetip": "在起跳之前要做好充分的热身运动，防止受伤和肌肉僵硬，根据自己的体质情况，选择适宜的练习方法，控制运动负荷。要循序渐进，由易到难，由矮到高进行锻炼",
+        "exerciseaffect": "经常全面锻炼，对身心发展是有益处的，可以调节人的心理，使人精力充沛，起到强健体魄，陶冶情操，锻炼意志的作用",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/healthknowledge/banner1.jpg",
+        "temp_exercisetypeid": 1
+    },
+    {
+        "exerciseid": 3,
+        "exercisename": "跳远",
+        "exercisetypename": "田径运动",
+        "energywaste": "360.00",
+        "exercisetip": "尽量选平坦又不过于坚硬的地面进行练习，运动后放松，运动员在训练后应注意用手轻柔进行放松缓解，降低在后面的训练中发生肌肉拉伤的风险",
+        "exerciseaffect": "增加肌肉的协调能力，提高弹跳，是联系腰腹肌的不错手段",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 1
+    },
+    {
+        "exerciseid": 4,
+        "exercisename": "短跑",
+        "exercisetypename": "田径运动",
+        "energywaste": "700.00",
+        "exercisetip": "做好运动前的准备活动，可在慢跑的基础上对肩关节、肘关节、背腰肌肉、腿膝踝关节等部位进行活动，强化肌肉韧带的力量，提高机体的灵敏性和协调性，从而防止受伤，运动或比赛后，应做好放松活动，以尽快恢复体力和肌肉的力量，等全身发热时才脱外衣，跑结束后应立即披上外衣，以防伤风感冒。长跑时所穿的鞋袜应柔软合脚",
+        "exerciseaffect": "能磨炼人的意志和毅力，增强韧性和耐心，提高灵敏度，促进对环境 的适应能力，长期坚持跑步，会使您心肌强壮有力，蛋白和肌红蛋白量增加，改善血液循环，增加骨细胞营养物质的供应，提高骨细胞的生长能力，从 \n而促进了骨的正常发育，加强新陈代谢，延迟骨骼的退行性改变，预防老年性骨与关节病的发生，从而使您延缓衰老",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 1
+    },
+    {
+        "exerciseid": 5,
+        "exercisename": "长跑",
+        "exercisetypename": "田径运动",
+        "energywaste": "900.00",
+        "exercisetip": "不要在烟雾多空气质量不好的场所长跑，不要张口呼吸，不宜在长跑中穿得太厚、太臃肿，不宜超强度运动，根据自己的情况量力而行，不宜在运动后立即喝水、进食",
+        "exerciseaffect": "健身长跑可提高呼吸系统和心血管系统机能，有利于防病治病健身长跑使血液循环加快，对排泄系统有害物质起到清洗作用，从而使有害物质难以在体内停留和扩散，有利于心情舒畅、精神愉快",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 1
+    },
+    {
+        "exerciseid": 6,
+        "exercisename": "竞走",
+        "exercisetypename": "田径运动",
+        "energywaste": "390.00",
+        "exercisetip": "竞走时要自动摆动双臂使下臂呈约90度，有节拍地摆到胯后，向上则摆到与肩同高;前行的时分，应用拐杖触地的反弹力推进身体向前。共同缓而深的呼吸，大步疾速进步",
+        "exerciseaffect": "能发展腿部肌肉的力量及髋关节的灵活性增强体质，促进健康，提高血液循环系统和呼吸系统的机能，培养吃苦耐劳、勇敢顽强的意志品质，还能瘦弱腿、大腿、收紧臀部，平上腹、小腹，收紧腰部，塑造全身线条。更能加速胃肠道的蠕动，预防便秘，加速盆腔的血液轮回预防某些妇科病的发作",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 1
+    },
+    {
+        "exerciseid": 7,
+        "exercisename": "铅球",
+        "exercisetypename": "田径运动",
+        "energywaste": "240.00",
+        "exercisetip": "充分地做好准备活动，诸如：脚跟触地，脚尖自然向上，用脚掌阻挡迎面来球，切不可用手指或将脚平放等",
+        "exerciseaffect": "不仅可以锻炼我们的手臂的力量，还可以提高我们肩膀的力量，还可以提高腰部，劲部，肩部的爆发力",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 1
+    },
+    {
+        "exerciseid": 8,
+        "exercisename": "马拉松",
+        "exercisetypename": "田径运动",
+        "energywaste": "2400.00",
+        "exercisetip": "比赛过程中最忌突然加减速，要以比较平稳的方式加速或减速，上坡采用小步幅快频率，下坡采用大步幅，充分利用惯性，脚落地方式从脚后跟或全脚掌沿脚外延快速过渡到大脚趾的方式。长距离奔跑不要用前脚掌落地的方式，呼吸方式三步一呼、三步一吸为好，最好口鼻一同呼吸，不要戴口罩，每一个跑马拉松的人，通常在跑半程马拉松的人最好不要饮用含糖饮料，而跑全程的人在20公里后要适量补充含糖饮料或自备的能量饮品。",
+        "exerciseaffect": "跑步可以保护心脏，加速血液循，调整血液分布，消除瘀血现象，提高呼吸系统机能，增强神经系统的功能，消除脑力劳动者疲劳，预防神经衰弱，促进人体新陈代谢，控制体重，预防肥胖症",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 1
+    },
+    {
+        "exerciseid": 9,
+        "exercisename": "三级跳远",
+        "exercisetypename": "田径运动",
+        "energywaste": "360.00",
+        "exercisetip": "尽量选平坦又不过于坚硬的地面进行练习，运动后放松，运动员在训练后应注意用手轻柔进行放松缓解，降低在后面的训练中发生肌肉拉伤的风险",
+        "exerciseaffect": "增加肌肉的协调能力，提高弹跳，是联系腰腹肌的不错手段",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 1
+    },
+    {
+        "exerciseid": 10,
+        "exercisename": "十项全能",
+        "exercisetypename": "田径运动",
+        "energywaste": "0.00",
+        "exercisetip": "要根据自身的情况选择活动内容，适当控制运动量。做好运动前的准备活动，正确掌握动作要领",
+        "exerciseaffect": "能促进新陈代谢、协调神经系统与运动器官之间的联系，提高心血管系统、呼吸系统及其他内脏器官的机能；能全面发展力量、速度、耐力、灵敏、协调等身体素质，促进正常发育，提高健康水平；能促使走、跑、跳、投掷的技能更趋合理有效，从而保持和提高人体在生活和学习、工作中的适应能力；并可延缓人体衰老过程",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 1
+    },
+    {
+        "exerciseid": 11,
+        "exercisename": "现代五项",
+        "exercisetypename": "田径运动",
+        "energywaste": "0.00",
+        "exercisetip": "要根据自身的情况选择活动内容，适当控制运动量。做好运动前的准备活动，正确掌握动作要领",
+        "exerciseaffect": "能促进新陈代谢、协调神经系统与运动器官之间的联系，提高心血管系统、呼吸系统及其他内脏器官的机能；能全面发展力量、速度、耐力、灵敏、协调等身体素质，促进正常发育，提高健康水平；能促使走、跑、跳、投掷的技能更趋合理有效，从而保持和提高人体在生活和学习、工作中的适应能力；并可延缓人体衰老过程",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 1
+    },
+    {
+        "exerciseid": 12,
+        "exercisename": "铁人三项",
+        "exercisetypename": "田径运动",
+        "energywaste": "0.00",
+        "exercisetip": "要根据自身的情况选择活动内容，适当控制运动量。做好运动前的准备活动，正确掌握动作要领",
+        "exerciseaffect": "能促进新陈代谢、协调神经系统与运动器官之间的联系，提高心血管系统、呼吸系统及其他内脏器官的机能；能全面发展力量、速度、耐力、灵敏、协调等身体素质，促进正常发育，提高健康水平；保持和提高人体在生活和学习、工作中的适应能力；并可延缓人体衰老过程",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 1
+    },
+    {
+        "exerciseid": 13,
+        "exercisename": "七项全能",
+        "exercisetypename": "田径运动",
+        "energywaste": "0.00",
+        "exercisetip": "要根据自身的情况选择活动内容，适当控制运动量。做好运动前的准备活动，正确掌握动作要领",
+        "exerciseaffect": "能促进新陈代谢、协调神经系统与运动器官之间的联系，提高心血管系统、呼吸系统及其他内脏器官的机能；能全面发展力量、速度、耐力、灵敏、协调等身体素质，促进正常发育，提高健康水平；能促使走、跑、跳、投掷的技能更趋合理有效，从而保持和提高人体在生活和学习、工作中的适应能力；并可延缓人体衰老过程",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 1
+    },
+    {
+        "exerciseid": 14,
+        "exercisename": "足球",
+        "exercisetypename": "球类运动",
+        "energywaste": "500.00",
+        "exercisetip": "参加锻炼时应身着宽松合体、透气吸汗的运动服装，球鞋应选用合脚防滑的帆面胶底的足球鞋，要先做一些较缓和、运动量较小的热身运动，使身体在进入剧烈运动前有一个准备过程，待心率和体温上升时，再逐渐增加运动的强度和速度，这样，既有助于肌肉的活动效率和关节的润滑，又可以防止运动损伤",
+        "exerciseaffect": "有效预防心血管病，降低血糖病发生的危险性，提高消化系统的功能，控制体重与改变体形 ，增强心脏功能",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 15,
+        "exercisename": "篮球",
+        "exercisetypename": "球类运动",
+        "energywaste": "400.00",
+        "exercisetip": "弓步压腿、高抬腿、关节活动，最好小跑热一下身，那样会更容易进入状态，饭后不宜参加象打篮球这样的激烈运动",
+        "exerciseaffect": "能全面、有效、综合地促进身体素质和人体机能的全面发展，保持和提高人的生命活力，为人的一切活动打下坚实的身体（物质）基础，从而提高生活的质量",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 16,
+        "exercisename": "排球",
+        "exercisetypename": "球类运动",
+        "energywaste": "360.00",
+        "exercisetip": "手型：五指并拢用力上翘，掌心绷直，用掌根（肉最厚且有两块骨头的部位）击球中部，动作要快，一气呵成，要领：躯干要挺直，尤其是腰部不能弯，腰弯必下网，抛球不要太高，离头一米最佳，直上抛",
+        "exerciseaffect": "不仅能提高人们的力量、速度、灵活、耐力，弹跳，反应等身体素质和运动能力，并改善身体各器官、系统的机能状况，而且还能培养机智、果断、沉着、冷静等心理素质。也是建设精神文明的一种良好手段",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 17,
+        "exercisename": "网球",
+        "exercisetypename": "球类运动",
+        "energywaste": "420.00",
+        "exercisetip": "必须做运动前拉伸，有疼痛可戴保护工具，腰痛膝痛别打网球\n",
+        "exerciseaffect": "发展身体素质,促进体格均衡发展, 提高呼吸系统功能，强化人的心理品质，发展个性，放松身心",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 18,
+        "exercisename": "棒球",
+        "exercisetypename": "球类运动",
+        "energywaste": "300.00",
+        "exercisetip": "必须做运动前拉伸，有疼痛可戴保护工具\n",
+        "exerciseaffect": "1.团体精神。2.对身体要求不高.全民可以参与。3.战术多.比赛刺激.练心理。4.多看MLB比赛.对英文的兴趣提升.棒球主要的好处就是团队精神，所有队员在场上的配合。能培养我们互助的能力。5.能锻炼我们的身体。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 19,
+        "exercisename": "台球",
+        "exercisetypename": "球类运动",
+        "energywaste": "150.00",
+        "exercisetip": "除了眼睛、心脏、手部肌肉有明显残障的人，不适宜或不能长时间地打台球外，一般均可连续活动一两个小时。所以台球实在是一项优点居多、好处不少的球类活动。",
+        "exerciseaffect": "让人注意力集中，大脑关于线性思维变敏捷，它需要精确的计算，对心态与肌肉要有自控意识。它有时也在一大堆失败中惹出一些烦恼，又可以锻炼个人的坚韧性格，不为胜负所累，",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 20,
+        "exercisename": "冰球",
+        "exercisetypename": "球类运动",
+        "energywaste": "700.00",
+        "exercisetip": "运动前，准备放松运动，防止运动损伤,如果在运动中不慎受伤，应立即停止比赛，及时处理，如果出现严重的损伤就要及时就医。",
+        "exerciseaffect": "1、可以保持身材??。2、可以锻炼人的灵活性，提高跳跃的能力，3、可以让人练就团队意识，以及一个团队在各方面能力。4、改善体型及姿态。5、促进身体机能。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 21,
+        "exercisename": "马球",
+        "exercisetypename": "球类运动",
+        "energywaste": "0.00",
+        "exercisetip": "运动前，准备放松运动，防止运动损伤,如果在运动中不慎受伤，应立即停止比赛，及时处理，如果出现严重的损伤就要及时就医。",
+        "exerciseaffect": "增加你的灵敏度，反应速度，体力",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 22,
+        "exercisename": "壁球",
+        "exercisetypename": "球类运动",
+        "energywaste": "517.00",
+        "exercisetip": "打壁球时，一般要穿翻领T恤加短裤或短裙，以舒适、吸汗、透气性好和方便运动为准。打壁球最好穿壁球鞋，因国内尚无此类鞋出售，爱好者可以网球鞋替代。",
+        "exerciseaffect": "高节奏的脚步移动、击打频率和变幻莫测的球路，与灵活的技战术结合在一起，使参与者在相对短的时间里不仅得到心肺功能及肌肉、关节和韧带的锻炼，而且使其灵活性、协调性和柔韧性得到很好的改善；判断力、应变能力和果敢性也同时得到相应提高。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 23,
+        "exercisename": "门球",
+        "exercisetypename": "球类运动",
+        "energywaste": "0.00",
+        "exercisetip": "1.参加门球活动前应把臂、腿、腰以及相应的关节充分活动开。2.打门球时最好穿带齿而不滑的鞋。尤其对老年人来说，如绊倒或滑倒很容易出现摔伤事故，冬季冰冻天参加户外门球活动更应小心。3.老年人参加门球活动，以安全适度、确保实效，能得到快乐感和满足感为健身原则。4.老年人经常从事门球活动应有自我监督和预防意外的方法。\n\n",
+        "exerciseaffect": "1.有更多的机会接受负离子的\"沐浴\"。2.可增加骨盐量。3.防治腰肌劳损。4.能较为全面地发展体质。\n\n",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 24,
+        "exercisename": "垒球",
+        "exercisetypename": "球类运动",
+        "energywaste": "300.00",
+        "exercisetip": "必须做运动前拉伸，有疼痛可戴保护工具\n",
+        "exerciseaffect": "锻炼力量、速度、灵敏、协调、柔韧",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 25,
+        "exercisename": "藤球",
+        "exercisetypename": "球类运动",
+        "energywaste": "0.00",
+        "exercisetip": "必须做运动前拉伸，有疼痛可戴保护工具\n",
+        "exerciseaffect": "可以锻炼身体的协调性,平衡能力,还有判断力.",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 26,
+        "exercisename": "橄榄球",
+        "exercisetypename": "球类运动",
+        "energywaste": "480.00",
+        "exercisetip": "运动前，准备放松运动，防止运动损伤,如果在运动中不慎受伤，应立即停止比赛，及时处理，如果出现严重的损伤就要及时就医。",
+        "exerciseaffect": "1.更有效改善呼吸系统的功能。2. 强化腿部的骨骼。3. 更有效地延年益寿。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 27,
+        "exercisename": "乒乓球",
+        "exercisetypename": "球类运动",
+        "energywaste": "240.00",
+        "exercisetip": "球台四周要较宽敞，不要有太近的障碍物，以免运动中受到伤害；地面要干燥，水要及时拖干，防止滑倒受伤。做好准备活动，控制运动负荷，做好整理放松活动，防止运动损伤。",
+        "exerciseaffect": "1.预防治疗近视:打乒乓球能使眼球内部不断运动，血液循环增强，眼神经机能提高，因而能使眼睛疲劳消除或减轻，起到预防治疗近视的作用; 2.可健脑益智 ；3. 可以提高协调性；4. 提供了一个减压的途径；5.能够让运动者具有良好的心理素质。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 28,
+        "exercisename": "羽毛球",
+        "exercisetypename": "球类运动",
+        "energywaste": "340.00",
+        "exercisetip": "上场前，做好准备活动，穿好运动的装备。不要一拿拍子就上场，这样对于手腕，关节等等都不好。在无球走动的情况下，一定不要随意走人正在开局的球场内，至少要在离开边线50公分以外，同时要观察场上队员的情况，避免被伤。",
+        "exerciseaffect": "打羽毛球不仅够锻炼脊椎，尤其是能够活动颈椎，腰椎，避免颈椎和腰椎间盘突出等问题，锻炼手臂的灵活性，还能锻炼眼力和身体反应能力。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 29,
+        "exercisename": "高尔夫",
+        "exercisetypename": "球类运动",
+        "energywaste": "270.00",
+        "exercisetip": "1.高尔夫礼仪；2.注意安全；3.保持安静；4.控制打球速度；5.不要让球击中前一组球员；6.请求先行通过；7.“Ready Golf”——让准备好的球员先打。",
+        "exerciseaffect": "1.强身健体；2.培养优雅稳重的举止和气质；3.培养独立性和判断思考能力；4.培养良好的心理素质；5.培养自觉自律的精神。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 30,
+        "exercisename": "曲棍球",
+        "exercisetypename": "球类运动",
+        "energywaste": "420.00",
+        "exercisetip": "运动前，准备放松运动，防止运动损伤,如果在运动中不慎受伤，应立即停止比赛，及时处理，如果出现严重的损伤就要及时就医。",
+        "exerciseaffect": "增加你的灵敏度，反应速度，体力",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 31,
+        "exercisename": "沙滩排球",
+        "exercisetypename": "球类运动",
+        "energywaste": "480.00",
+        "exercisetip": "运动前，准备放松运动，防止运动损伤,运动时戴上护膝、护踝、护腕、护肘、指套等，保护容易受伤的关节，如果在运动中不慎受伤，应立即停止比赛，及时处理，如果出现严重的损伤就要及时就医。",
+        "exerciseaffect": "1) 改善体型及姿态 ，调节脾肾功能 ，2) 心情好不好都可以找人发泄，保护肝脏 ，释放压力，调节情绪，3) 降低血压，减少痴肥的机会，4) 改进肌肉力量，使肌肉匀称有力，促进身体的的灵活性和协调 ，5) 促进身体的生长，提高跳跃的能力，修复脊椎，改进心肺功能",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 2
+    },
+    {
+        "exerciseid": 32,
+        "exercisename": "游泳",
+        "exercisetypename": "水上项目",
+        "energywaste": "360.00",
+        "exercisetip": "忌饭前饭后游泳，忌剧烈运动后游泳，忌月经期游泳，忌长时间曝晒游泳，忌不做准备活动即游泳，忌游泳后马上进食，忌游时过久，忌有癫痫史游泳，忌高血压患者游泳，忌心脏病者游泳，忌酒后游泳，忌患中耳炎游泳",
+        "exerciseaffect": "游泳是一种全身性运动，不但可以减肥，还可提高你的心肺功能，而且能锻炼你几乎所有的肌肉，尤其是坚持有规律的强化训练，几个月的功夫就能使你“脱胎换骨”。 在水中人的骨骼得到了充分的放松，可以有机会“伸一下懒腰”，这对于保持挺拔的身体很有好处，对于正在长身体的青少年，经常坚持游泳锻炼可以让你的长成一个“高个子”",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 3
+    },
+    {
+        "exerciseid": 33,
+        "exercisename": "跳水",
+        "exercisetypename": "水上项目",
+        "energywaste": "180.00",
+        "exercisetip": "下水之前先做准备活动，以免不适,在救生员在场时方可下水，身体患病者不要去游泳，忌饭前饭后游泳,空腹游泳会影响食欲和消化功能，也会在游泳中发生头昏乏力等意外情况；饱腹游泳亦会影响消化功能，还会产生胃痉挛，甚至呕吐、腹痛现象",
+        "exerciseaffect": "塑造形体:在水中运动由于减少了地面运动时地对骨骼的冲击性，降低了骨骼的老损机率，使骨关节不易变形;改善体温调节的能力:体温调节功能改善，就不容易伤风感冒，还能提高人体内分泌功能，使脑垂体功能增加，从而提高对疾病的抵抗力和免疫力;水疗按摩的作用:人在游泳时，水对肌肤、汗腺、脂肪腺的冲刷，起到了很好的按摩作用，促进了血液循环，使皮肤光滑有弹性。此外，在水中运动时，大大减少了汗液中盐分对皮肤的刺激;减肥",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 3
+    },
+    {
+        "exerciseid": 34,
+        "exercisename": "潜水",
+        "exercisetypename": "水上项目",
+        "energywaste": "420.00",
+        "exercisetip": "遵守二人同行制,一定要穿配救生衣,配重带最後配带,勿使用耳塞,调整新潜水衣的浮力,一定要将面罩内的水除尽,不要做超呼吸的动作,.完全离水(上岸)後才拿除蛙鞋，面罩，呼吸管",
+        "exerciseaffect": "潜水有益于人的心智体全面塑造,潜水具有减肥瘦身的功效,潜水具有美容肌肤的效果,潜水具有减压抗癌的健康疗效",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 3
+    },
+    {
+        "exerciseid": 35,
+        "exercisename": "赛艇",
+        "exercisetypename": "水上项目",
+        "energywaste": "720.00",
+        "exercisetip": "一定要穿配救生衣,配重带最後配带",
+        "exerciseaffect": "增强体质，增强身体的免疫力，",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 3
+    },
+    {
+        "exerciseid": 36,
+        "exercisename": "帆船",
+        "exercisetypename": "水上项目",
+        "energywaste": "180.00",
+        "exercisetip": "一定要穿配救生衣,配重带最後配带，请勿带照相机、手机及一切不防水的物品。",
+        "exerciseaffect": "增强体质，增强身体的免疫力，",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 3
+    },
+    {
+        "exerciseid": 37,
+        "exercisename": "帆板",
+        "exercisetypename": "水上项目",
+        "energywaste": "0.00",
+        "exercisetip": "1.一定要穿配救生衣，2.在玩帆板时，请您做好随时落入水中的准备，避免身体落到帆板或帆体上。3.请勿带照相机、手机及一切不防水的物品玩帆板。",
+        "exerciseaffect": "增强体质，增强身体的免疫力，",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 3
+    },
+    {
+        "exerciseid": 38,
+        "exercisename": "漂流",
+        "exercisetypename": "水上项目",
+        "energywaste": "300.00",
+        "exercisetip": "1.下水前一定穿好救生衣，将衣襟带子及腰带全部扎紧扎牢，因为一旦翻船这衣服可是绝对救生的。2．必须穿着长衣长裤，尤其是队友们一定不要“裸漂”，经过N小时的漂流，皮肤着水后再被日光直射，必然会受到严重晒伤，而且水面反光也容易使皮肤受到伤害。3．防晒用品（阔沿帽、户外用头巾、防晒霜、太阳镜、眼镜绳等）。4．充气椅垫 。5．防水袋 。6．淘水工具 。",
+        "exerciseaffect": "增强体质，接近大自然，好玩，刺激，还是比较安全的 ，岸上到处都有保护的人 可以放声尖叫 漂流就夏天比较好玩一点 天气凉了会很冷的，还可以和大自然亲密接触",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 3
+    },
+    {
+        "exerciseid": 39,
+        "exercisename": "水球",
+        "exercisetypename": "水上项目",
+        "energywaste": "600.00",
+        "exercisetip": "必须做运动前的活动准备。\n",
+        "exerciseaffect": "水球运动，能使全身肌肉、心血管、呼吸及神经系统等得到锻炼，还能培养机智、果断、勇敢、顽强的意志和集体主义精神。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 3
+    },
+    {
+        "exerciseid": 40,
+        "exercisename": "皮划艇",
+        "exercisetypename": "水上项目",
+        "energywaste": "210.00",
+        "exercisetip": "一定要穿配救生衣,配重带最後配带，请勿带照相机、手机及一切不防水的物品。",
+        "exerciseaffect": "增强体质，增强身体的免疫力，",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 3
+    },
+    {
+        "exerciseid": 41,
+        "exercisename": "花样游泳",
+        "exercisetypename": "水上项目",
+        "energywaste": "360.00",
+        "exercisetip": "忌饭前饭后游泳，忌剧烈运动后游泳，忌月经期游泳，忌长时间曝晒游泳，忌不做准备活动即游泳，忌游泳后马上进食，忌游时过久，忌有癫痫史游泳，忌高血压患者游泳，忌心脏病者游泳，忌酒后游泳，忌患中耳炎游泳",
+        "exerciseaffect": "游泳是一种全身性运动，不但可以减肥，还可提高你的心肺功能，而且能锻炼你几乎所有的肌肉，尤其是坚持有规律的强化训练，几个月的功夫就能使你“脱胎换骨”。 在水中人的骨骼得到了充分的放松，可以有机会“伸一下懒腰”，这对于保持挺拔的身体很有好处，对于正在长身体的青少年，经常坚持游泳锻炼可以让你的长成一个“高个子”",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 3
+    },
+    {
+        "exerciseid": 42,
+        "exercisename": "自行车",
+        "exercisetypename": "户外运动",
+        "energywaste": "480.00",
+        "exercisetip": "第一、自行车的车座不易过高，应富有弹性，防止骑车时臀部左右扭动，以减少局部摩擦。第二、骑车时臀部坐正，两腿用力均衡，防止一侧用力过猛而形成肿物。第三、月经带、卫生巾、短裤质地要柔软，在月经期最好少骑或不骑自行车。第四、骑行最重要的是要佩戴安全头盔。 第五、严禁酒后骑车。",
+        "exerciseaffect": "1，自行车是克服心脏功能毛病的最佳工具之一。2，习惯性的单车运动，更能扩大你的心脏。3，单车运动同时也能防止高血压，有时比药物更有效。4，自行车是减肥的工具。5，单车运动，不只可以减肥，还使你的身段更为匀称迷人。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 4
+    },
+    {
+        "exerciseid": 43,
+        "exercisename": "马术",
+        "exercisetypename": "户外运动",
+        "energywaste": "240.00",
+        "exercisetip": "请勿穿着鞋跟太长的鞋子骑马，以免鞋跟勾住马镫发生危险；请勿穿露脚指头的拖鞋或凉鞋骑马；请养成戴骑士帽(安全帽) 骑马的习惯，以免不小心摔马时，骑手头部受伤之危险。服装不整，请勿骑马；精神或体能状况不佳，以及喝酒后，请勿骑马，以免发生危险。上下马时，请缩短缰绳确实抓紧，不可松缰，以避免马匹紧张脱缰而跑。两马交会时，请勿靠得太近，甚至碰触擦身而过，以免骑手的脚或膝盖互相撞到，或是马儿互踢、互咬。马匹失控奔跑时，请确实抓紧缰绳，勿惊叫、切勿跳马。拉单边疆绳，将马匹带入由大至小的圆形，或近栏杆减速，同时发出\"呜…\"声，马儿就会慢下来。摔马时，请尽可能抱住马颈、抓紧缰绳，待摔到地面时再松手，这可减少摔落地面的冲击力。",
+        "exerciseaffect": "1、塑造优美挺拔的身姿；2、整体锻炼身体协调性和平衡感；3、提升孩子心理素质和交际能力；4、愉悦身心。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 4
+    },
+    {
+        "exerciseid": 44,
+        "exercisename": "滑板",
+        "exercisetypename": "极限运动",
+        "energywaste": "300.00",
+        "exercisetip": "如果你是初学者，上板之前，请先多看看基础动作资料例视屏文章等.使心里有个里底，到底重心放哪，脚咋摆位.要不怆然上板，如无头苍蝇，摔不伤才怪。初学时一般摔倒都是重心不稳，若滑行时失去重心，干脆跟重心，脚使劲压板端或板尾，使板端或板尾察地急停.若做技巧性的动作如腾空落地等时，且摔倒难已避免时，尽量绻身曲体，颈部张紧，向上伸远离地面。记住物理公式，P=F/S，当身体摔地一刹那即已地面接触面积越大时，承受的P才更少嘛，因你的G一定嘛.所以呢，摔下时切记勿就用身体的一只手掌呀啥子劳啥子部位撑地，背的话，喀嚓一声，也许就骨折了。建议去玩板的话，最好带上护具.特别是初学者，别嫌烦。",
+        "exerciseaffect": "1.它以人体运动理论和巧妙的力学原理，主要利用身体腰部及臀部、双脚扭动及手的摆动来驱动前进。让人手脚并用，扭动手脚驱动前进，锻炼腰部力量，学会手脚和全身平衡，达到全身锻炼的目的。2.提高运动技能，身体协调能力，以及全身平衡能力。3.锻炼意志品质。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 5
+    },
+    {
+        "exerciseid": 45,
+        "exercisename": "轮滑",
+        "exercisetypename": "极限运动",
+        "energywaste": "600.00",
+        "exercisetip": "1. 确认自己没有骨质疏松或其它复健上的问题。由于骨折约占单排轮滑伤害的40.8%，所以特别建议有骨质疏松症的病患，不要冒险学习直单排轮滑，以免跌出严重的骨折问题。2. 购买合身且全套的保护装备。 3. 在开始玩单排轮滑前要先作暖身运动，脚、小腿、脚踝、脚掌的暖身尤其重要，刚开始玩单排轮滑的前十五到二十分钟，鞋带不要绑的太紧，慢慢的滑也是暖身的一部份。4. 选择平滑，没有水、砂子砂砾或者尘土的场地，尤其要避免在街道、车道上等危险场地玩单排轮滑。5. 若有不适，尽快就医。",
+        "exerciseaffect": "娱乐性：轮滑项目具有很强的娱乐性和趣味性，通过这项运动，可使人们从日常紧张、繁重的学习和工作中解脱出来，达到身心放松的目的。健身性：轮滑是一项全身性运动，它能促进心脑血管系统和呼吸系统机能的改善和代谢作用的加强，能增强臂、腿、腰、腹等肌肉的力量和身体各个关节的灵活性，特别是对人掌握平衡能力上有很大作用。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 5
+    },
+    {
+        "exerciseid": 46,
+        "exercisename": "登山",
+        "exercisetypename": "极限运动",
+        "energywaste": "400.00",
+        "exercisetip": "一、做好热身准备。二、要走不要跳。三、要匀不要急。四、走阶不走坡。五、走硬不走软。六、别总往高处看。七、快去慢返。八、冰川行走以及在户外危险路段时一定要组成结组绳队，确保点须牢固。九、选择登山路线或决定是否回头时，必须冷静判断，不可冲动。十、随身携带必要的衣物、食粮和装备。十一、将登山行程交给留守人员。十二、出发前应先作健康检查，尤其是平日很少运动的中老年人，更需认真检查。十三、活动前或进入山区后，应随时注意气象数据及变化。十四、登山期间，可多作休息，但休息的时间不宜过长，以免着凉。",
+        "exerciseaffect": "登山野营活动对人体有很大的好处，从医学角度来说，它对人的视力、心肺功能、四肢协调能力、体内多余脂肪的消耗、延缓人体衰老等五个方面有直接的益处。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 5
+    },
+    {
+        "exerciseid": 47,
+        "exercisename": "滑水",
+        "exercisetypename": "极限运动",
+        "energywaste": "360.00",
+        "exercisetip": "准备好器材:只要有1、牵引器材:(towing equipment) 2、滑水板(水橇, skis)3、保暖服:(wetsuit)4、 救生衣(life vest) 5、滑水拖绳(rope) 6、拉把(handle)7、其他器材:滑水手套、臂环、滑水短裤、尼龙背心等也都是滑水者经常要使用的器材。注意事项：1、当您是第一次体验划水时，如身体不能保持平衡时，请您立即松开手中的绳索，以免意外事故的发生。(如擦伤、摔伤或是滑板碰到自己)。2、请勿带照相机、手机及一切不防水的物品滑水。",
+        "exerciseaffect": "增强体质，增强身体的免疫力，",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 5
+    },
+    {
+        "exerciseid": 48,
+        "exercisename": "攀岩",
+        "exercisetypename": "极限运动",
+        "energywaste": "550.00",
+        "exercisetip": "1.做好一般的准备活动的基础上，如肩、腰、髋、膝等大关节的伸展，要特别注意手指、手腕、肘关节、踝关节等末端小关节的热身。2.任何时候都要有一只手紧握通过下降器的绳子。3.放绳子时，双手要协调配合。4.放绳子时，要缓慢匀速。",
+        "exerciseaffect": "1.增加身体柔软度与协调感，这是攀岩的关键能力，其重要性更胜于体力;国外已有医疗领域，将攀岩用来矫治孩童肌肉发展及手、眼、身体之协调训练上。2.增强体力。3.集中力。4.进取心。5.平衡感。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 5
+    },
+    {
+        "exerciseid": 49,
+        "exercisename": "蹦极",
+        "exercisetypename": "极限运动",
+        "energywaste": "0.00",
+        "exercisetip": "?1、蹦极对身体素质要求较高，凡是有心、脑病史的人不能参加。2、凡是深度近视者要慎重，因为硬式蹦极跳下时头朝下，人身体以9.8米/秒方的加速度下坠,很容易脑部充血而造成视网膜脱落。3、跳下前应充分活动身体各部位，以防扭伤或拉伤。4、跳出后要注意控制身体，不要让脖子或胳膊被弹索卷到。",
+        "exerciseaffect": "蹦极的好处是提高胆量，锻炼心动率,锻炼身体。当心情不好或者压力太大的时候蹦极可以帮助你放松压力。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 5
+    },
+    {
+        "exerciseid": 50,
+        "exercisename": "冲浪",
+        "exercisetypename": "极限运动",
+        "energywaste": "108.00",
+        "exercisetip": "１．冲浪板携行要注意转弯的地方。２．朝海边走出去时，拿冲浪板的角度要成直线，千万不可把浪板放在身体前面，防止海浪撞击浪板打到自己的身体。３．放在地上时要轻放，风很大时要用沙子盖在冲浪板上，或者绑好安全脚绳，你的身体要站在顺风方向的前缘，免得被自己的冲浪板打伤。４．冲浪板由外海冲回岸边，距离水深约３０厘米时，要立即下板，避免冲浪板直接冲击到石头上。5．千万不要把安全脚绳丢掉而选择游泳回来，最好是趴在浪板上休息等待救援。6．在冲浪板与海浪撞击的时候，不能用手去拉安全脚绳和冲浪板。7．如果看到水母或被水母咬到，一定赶快上岸。",
+        "exerciseaffect": "冲浪有益健康，特别是有助于心血管、肩部、背部和腿部的健康。冲浪也是缓解压力的一种有效方式。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 5
+    },
+    {
+        "exerciseid": 51,
+        "exercisename": "小轮车",
+        "exercisetypename": "极限运动",
+        "energywaste": "510.00",
+        "exercisetip": "进行骑小轮车锻炼时，要注意正确的骑车姿势。首先要调整好小轮车鞍座的高度和把手等。调整鞍座的高度可以避免大腿根部内侧及会阴部的擦伤或皮下组织瘤样增生。调整把手可以有助于找到避免疼痛的良好姿势。踩踏脚板时，脚的位置一定要恰当，用力要均匀，如果脚的位置不当，力量分布不均匀，就会使踝关节和膝关节发生疼痛。此外，还应经常更换手握把手的位置，注意一定的节奏，可采取快骑与慢骑交替进行。",
+        "exerciseaffect": "（1）能预防大脑老化，提高神经系统的敏捷性。（2）能提高心肺功能，锻炼下肢肌力和增强全身耐力。（3）能减肥。（4）能益寿延年。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 5
+    },
+    {
+        "exerciseid": 52,
+        "exercisename": "摩托艇",
+        "exercisetypename": "极限运动",
+        "energywaste": "150.00",
+        "exercisetip": "1.驾驶者和乘客应穿戴国家质量监督局认可的合适于个人玩艇用的救生设备。2.驾驶者和乘客应穿戴救生衣。3.请牢记油门杆至最低时，只能进行很少的方向控制。4.确保驾驶者的视野不受限制。5.禁止超载，因为超载会影响艇的操作性能和稳定性。",
+        "exerciseaffect": "增强体质，增强身体的免疫力，",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 5
+    },
+    {
+        "exerciseid": 53,
+        "exercisename": "滑雪",
+        "exercisetypename": "冰雪运动",
+        "energywaste": "360.00",
+        "exercisetip": "1.应仔细了解滑雪的高度、宽度、长度、坡度以及走向。2.要根据自己的水平选择适合你的滑雪道，切不可过高估计自己的水平，而冒然行事，要循序渐进，最好能请一名滑雪教练。3.在滑行中如果对前方情况不明，或感觉滑雪器材有异常时，应停下来检查，切勿冒险。4.在结伴滑行时，相互间一定要拉开距离，切不可为追赶同伴而急速滑降，那样很容易摔倒或与他人相撞，初学者很容易发生这种事故。5.在中途休息时要停在滑雪道的边上，不能停在陡坡下，并注意从上面滑下来的滑雪者。6.滑行中如果失控跌倒，应迅速降低重心，向后坐，不要随意挣扎，可抬起四肢，屈身，任其向下滑动。要避免头朝下，更要绝对避免翻滚。7.视力不好的滑雪者，不要戴隐形眼镜滑雪，如果跌倒后隐形眼镜掉落，找回来的可能性几乎不存在。尽量配戴有边框的由树酯镜片制造的眼镜，它在受到撞击后不易碎裂。",
+        "exerciseaffect": "首先，滑雪运动能增强人的肺活量，长期坚持滑雪锻炼，肺活量会有明显的提高。其次，滑雪能有效地增强体质。在寒冷的户外进行高速度、大运动量的活动能让人体的各个器官，特别是腿部肌肉得到充分的有氧锻炼，从而达到强身健体的目的。 再者，滑雪有利于人形成良好的心理素质。当滑雪者站在雪道顶端时，往往会产生一种恐惧感，而一旦他发现自己能够平衡地滑下陡坡，并毫无窘迫感的能让身心适应这种速度，并在运动中得平衡，是对人的心理素质的一种训练。当适应这种平衡的时候，心理障碍也就随之消失了。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 6
+    },
+    {
+        "exerciseid": 54,
+        "exercisename": "越野滑雪",
+        "exercisetypename": "冰雪运动",
+        "energywaste": "480.00",
+        "exercisetip": "1.应仔细了解滑雪的高度、宽度、长度、坡度以及走向。2.要根据自己的水平选择适合你的滑雪道，切不可过高估计自己的水平，而冒然行事，要循序渐进，最好能请一名滑雪教练。3.在滑行中如果对前方情况不明，或感觉滑雪器材有异常时，应停下来检查，切勿冒险。4.在结伴滑行时，相互间一定要拉开距离，切不可为追赶同伴而急速滑降，那样很容易摔倒或与他人相撞，初学者很容易发生这种事故。5.在中途休息时要停在滑雪道的边上，不能停在陡坡下，并注意从上面滑下来的滑雪者。6.滑行中如果失控跌倒，应迅速降低重心，向后坐，不要随意挣扎，可抬起四肢，屈身，任其向下滑动。要避免头朝下，更要绝对避免翻滚。7.视力不好的滑雪者，不要戴隐形眼镜滑雪，如果跌倒后隐形眼镜掉落，找回来的可能性几乎不存在。尽量配戴有边框的由树酯镜片制造的眼镜，它在受到撞击后不易碎裂。",
+        "exerciseaffect": "首先，滑雪运动能增强人的肺活量，长期坚持滑雪锻炼，肺活量会有明显的提高。其次，滑雪能有效地增强体质。在寒冷的户外进行高速度、大运动量的活动能让人体的各个器官，特别是腿部肌肉得到充分的有氧锻炼，从而达到强身健体的目的。 再者，滑雪有利于人形成良好的心理素质。当滑雪者站在雪道顶端时，往往会产生一种恐惧感，而一旦他发现自己能够平衡地滑下陡坡，并毫无窘迫感的能让身心适应这种速度，并在运动中得平衡，是对人的心理素质的一种训练。当适应这种平衡的时候，心理障碍也就随之消失了。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 6
+    },
+    {
+        "exerciseid": 55,
+        "exercisename": "高山滑雪",
+        "exercisetypename": "冰雪运动",
+        "energywaste": "480.00",
+        "exercisetip": "1.应仔细了解滑雪的高度、宽度、长度、坡度以及走向。2.要根据自己的水平选择适合你的滑雪道，切不可过高估计自己的水平，而冒然行事，要循序渐进，最好能请一名滑雪教练。3.在滑行中如果对前方情况不明，或感觉滑雪器材有异常时，应停下来检查，切勿冒险。4.在结伴滑行时，相互间一定要拉开距离，切不可为追赶同伴而急速滑降，那样很容易摔倒或与他人相撞，初学者很容易发生这种事故。5.在中途休息时要停在滑雪道的边上，不能停在陡坡下，并注意从上面滑下来的滑雪者。6.滑行中如果失控跌倒，应迅速降低重心，向后坐，不要随意挣扎，可抬起四肢，屈身，任其向下滑动。要避免头朝下，更要绝对避免翻滚。7.视力不好的滑雪者，不要戴隐形眼镜滑雪，如果跌倒后隐形眼镜掉落，找回来的可能性几乎不存在。尽量配戴有边框的由树酯镜片制造的眼镜，它在受到撞击后不易碎裂。",
+        "exerciseaffect": "首先，滑雪运动能增强人的肺活量，长期坚持滑雪锻炼，肺活量会有明显的提高。其次，滑雪能有效地增强体质。在寒冷的户外进行高速度、大运动量的活动能让人体的各个器官，特别是腿部肌肉得到充分的有氧锻炼，从而达到强身健体的目的。 再者，滑雪有利于人形成良好的心理素质。当滑雪者站在雪道顶端时，往往会产生一种恐惧感，而一旦他发现自己能够平衡地滑下陡坡，并毫无窘迫感的能让身心适应这种速度，并在运动中得平衡，是对人的心理素质的一种训练。当适应这种平衡的时候，心理障碍也就随之消失了。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 6
+    },
+    {
+        "exerciseid": 56,
+        "exercisename": "花样滑冰",
+        "exercisetypename": "冰雪运动",
+        "energywaste": "420.00",
+        "exercisetip": "在自然场地滑冰需要注意事项：l．要选择安全的场地，在自然结冰的湖泊、江河、水塘滑冰，应选择冰冻结实，没有冰窟窿和裂纹、裂缝的冰面，要尽量在距离岸边较近的地方。2．初学滑冰者，不可性急莽撞，学习应循序渐进，特别要注意保持身体重心平衡，避免向后摔倒而摔坏腰椎和后脑。3．结冰的季节，天气十分寒冷，滑冰时要戴好帽子、手套，注意保暖，防止感冒和身体暴露的部位发生冻伤。4．滑冰的时间不可过长，在寒冷的环境里活动，身体的热量损失较大。在人工滑冰场所滑冰需要注意的事项：1、身上不要带硬器，如钥匙、小刀、手机等，以免摔倒硌伤自己。2、穿冰鞋时，前两三个扣眼的鞋带可稍松，后面的鞋带要系紧，脚腕在鞋里不晃动为合适。3、服装厚度、松紧度以不妨碍运动为宜并戴 手套，以免摔倒时擦伤皮肤 。儿童可戴护具。4、检查冰刀刃部有没有严重磨损，防止蹬冰无力和侧滑。",
+        "exerciseaffect": "滑冰是一项集力量、耐力、速度、协调、柔韧、灵活、平衡、优美、稳定于一身的运动项目。滑冰不仅能够增强人体的平衡能力、协调能力以及身体的柔韧性，同时还可增强人的心肺功能，提高有氧运动能力。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 6
+    },
+    {
+        "exerciseid": 57,
+        "exercisename": "冰上运动",
+        "exercisetypename": "冰雪运动",
+        "energywaste": "420.00",
+        "exercisetip": "1.在滑雪前进行一些充分的热身运。2.当出现体温过低时，应及时补充热的甜品饮料。3.在运动前也不宜吃的过饱，以免滑雪时出现恶心、呕吐等反应。4.在进行滑冰时自己可以做到的就做，做不到的也不要勉强自己。 5.要注意衣着的保暖程度，以防出现冻伤，又不要太累赘，以免妨碍滑冰效果。条件允许的话最好可以戴上护膝、护腕。服装厚度、松紧度以不妨碍运动为标准。6.结束练习后，及时擦去汗水，穿好衣服，以防感冒和冻伤。",
+        "exerciseaffect": "1.长期坚持做户外运动可以锻炼身体，而且冬天的空气污染少，提高肺活量。 2.冰上运动可以带给你一种气质，锻炼你的爆发力和身体的柔韧性。 3.可以改变你的心境，平复心情，锻炼你的耐性。 4.多接触一些朋友，让你的社交圈更广一些。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 6
+    },
+    {
+        "exerciseid": 58,
+        "exercisename": "保龄球",
+        "exercisetypename": "室内运动",
+        "energywaste": "180.00",
+        "exercisetip": "第一:保持滑步脚鞋底的清洁和干燥。第二:自己去选择合适的保龄球。第三:与边上球道的球手和平相处。",
+        "exerciseaffect": "1.打保龄球能够锻炼人的大脑，可以防止老年痴呆,因此尤其适合老年人打。2.打保龄球还能培养一个人创造美和欣赏美的能力。3.打保龄球能够增进与他人交往。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 7
+    },
+    {
+        "exerciseid": 59,
+        "exercisename": "搏击健美操",
+        "exercisetypename": "健美健身",
+        "energywaste": "480.00",
+        "exercisetip": "(1)运动前热身使身体得到足够的伸展。上课时腿部每15-20分钟应作一次伸展。(2)腹部、下颚收紧，两手握拳于脸前(防御姿势)保持正常呼吸，不屏气。(3)避免和专业运动员一样进行长时间的训练，应交替进行大运动量和低运动量的练习。(4) 侧踢时不应向前扭跨，这样会导致压力集中膝部，绷脚尖会扭伤膝盖，应向脚尖方扭跨以减轻膝盖的侧压力 。(5) 膝盖不要僵直，以减轻缓冲。在转身时要抬起膝盖，否则会扭伤十字韧带。(6) 击拳时要由肩部带动出拳，在完成击拳和踢腿动作前一直要看着目标 。(7) 避免在拥挤的房间进行后踢的动作 。(8) 避免肘、膝部用力过猛；避免进行闪躲或猛击动作时由于动作过大而脱臼，避免过度的扭转动作。 (9) 若发生以下情况，可停止练习(腿部疲劳、人体局部出现痛状不适、眩晕、心率过快等)，要保持循序渐进的思想不要一口吃个胖子，更需要坚持，持之以恒，这样才能达到锻炼 的效果。",
+        "exerciseaffect": "1.使你的血液变得很“富有”。与锻炼前相比，它能给多个细胞带来更多的氧气并带走更多的二氧化碳和其他废物。2.使你的血管更富有柔韧性，并能增加将血液送往肌肉的毛细血管数量。3.增加肺活量。经过实践发现增加肺部的生命力可以长寿。4.心肌得以强壮。5.有效地改善心率。6.去脂减肥。7. 塑造形体美。8. 改善不良情绪。9. 增加自信心。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 8
+    },
+    {
+        "exerciseid": 60,
+        "exercisename": "健身球操",
+        "exercisetypename": "健美健身",
+        "energywaste": "500.00",
+        "exercisetip": "身球操较徒手运动略有一些难度，它需要一定的控制和平衡力，还有腰腹的力量，对初学者应以最基础的动作为主。球操的适用群体很广泛，很多力量训练都不适合一些年龄较大、体质较弱的人，特别是那些心脏病、高血压患者，而做球操时运动者的心率保持在每分钟115～135次之间，人不会感到气喘，但消耗的热量却达到每45分钟3～6千卡路里。 　　对于初学者来说，球操有一定难度。但一边玩球，一边健身，可以让你更快摸清健身球的特性，掌握球操的技巧。当然，想在球上保持造型非一日之功，需要好好练习才行",
+        "exerciseaffect": "健身球的主要作用是训练人体的平衡能力，增强人对肌肉的控制能力，对提高人体的柔韧性和协调性。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 8
+    },
+    {
+        "exerciseid": 61,
+        "exercisename": "跳绳",
+        "exercisetypename": "健美健身",
+        "energywaste": "800.00",
+        "exercisetip": "跳绳，是一人或众人在一根环摆的绳中做各种跳跃动作的运动游戏。这种游戏唐朝称“透索”，宋称“跳索”，明称“跳百索”、“跳白索”、“跳马索”，清称“绳飞”，清末以后称作“跳绳”。作为一种古老的汉族民俗娱乐活动，南宋以来，每逢佳节都跳绳，家家户户都要比赛。",
+        "exerciseaffect": "能有效训练个人的反应和耐力，有助保持个人体态健美，从而达到强身健体的目的。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 8
+    },
+    {
+        "exerciseid": 62,
+        "exercisename": "健身健美",
+        "exercisetypename": "健美健身",
+        "energywaste": "280.00",
+        "exercisetip": "跳健美操时，初练者、没有运动经历者、慢性疾病患者以及中年以上的人群每次锻炼后，应以少量出汗、略有疲劳感、心率在130次/分左右为宜，总的练习时间不超过1小时。随着锻炼水平的提高，体质的增强，运动强度和运动总量都可以适当增加，心率最高不超过150次/分。",
+        "exerciseaffect": "1.使你的血液变得很“富有”。与锻炼前相比，它能给多个细胞带来更多的氧气并带走更多的二氧化碳和其他废物。2.使你的血管更富有柔韧性，并能增加将血液送往肌肉的毛细血管数量。3.增加肺活量。经过实践发现增加肺部的生命力可以长寿。4.心肌得以强壮。5.有效地改善心率。6.去脂减肥。7. 塑造形体美。8. 改善不良情绪。9. 增加自信心。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 8
+    },
+    {
+        "exerciseid": 63,
+        "exercisename": "体操",
+        "exercisetypename": "体操",
+        "energywaste": "280.00",
+        "exercisetip": "1、呼吸的调整，2、保持充足的水分，3、千万不要空腹做健美体操。",
+        "exerciseaffect": "1)体操运动的基本特点之一是既能全面、又能重点地锻炼身体。2)体操运动的许多技能在生活中有很高的实用价值，可以有效提高人们克服障碍、自我保护的能力。3)心理拓展训练借助身体练习达到促进心理发展的目的。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 9
+    },
+    {
+        "exerciseid": 64,
+        "exercisename": "艺术体操",
+        "exercisetypename": "体操",
+        "energywaste": "280.00",
+        "exercisetip": "身体要充分发热。先把柔韧压开，胯、腰、肩、胸、腰。如果有跳步类动作就要注意踝膝关节的保护。一定要了解你学习的动作的主要要领，最好有示范动作和教练的保护。",
+        "exerciseaffect": "陶冶情操,培养良好的兴趣,开阔胸怀,锻炼坚毅的性格,通过柔韧的训练还可以保持良好的身材，使身体变的修长。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 9
+    },
+    {
+        "exerciseid": 65,
+        "exercisename": "健美操",
+        "exercisetypename": "体操",
+        "energywaste": "280.00",
+        "exercisetip": "跳健美操时，初练者、没有运动经历者、慢性疾病患者以及中年以上的人群每次锻炼后，应以少量出汗、略有疲劳感、心率在130次/分左右为宜，总的练习时间不超过1小时。随着锻炼水平的提高，体质的增强，运动强度和运动总量都可以适当增加，心率最高不超过150次/分。",
+        "exerciseaffect": "1.使你的血液变得很“富有”。与锻炼前相比，它能给多个细胞带来更多的氧气并带走更多的二氧化碳和其他废物。2.使你的血管更富有柔韧性，并能增加将血液送往肌肉的毛细血管数量。3.增加肺活量。经过实践发现增加肺部的生命力可以长寿。4.心肌得以强壮。5.有效地改善心率。6.去脂减肥。7. 塑造形体美。8. 改善不良情绪。9. 增加自信心。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 9
+    },
+    {
+        "exerciseid": 66,
+        "exercisename": "健身操",
+        "exercisetypename": "体操",
+        "energywaste": "280.00",
+        "exercisetip": "1.刚开始时，应采取步伐走动的方式，以使身体和下肢有充分时间适应。开始不要做太长时间，以10分钟为宜。2.在步伐走动之前，先做热身和适当的伸展运动，特别是下肢的适度伸展非常重要。天冷时，热身时间要长，并多穿些衣服。在步伐走动前后测一下自己每分钟脉搏数并记录下来供参考。长时间锻炼后，心肺耐力会增加，心率会降低，运动后心跳恢复正常较快。3.初学者以每周两三次，隔日为宜。然后可适当增加次数，直到自己感觉适量为止，绝对不要勉强。",
+        "exerciseaffect": "1.增进健康美功能。2.塑造形体美功能。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 9
+    },
+    {
+        "exerciseid": 67,
+        "exercisename": "太极拳",
+        "exercisetypename": "武术",
+        "energywaste": "240.00",
+        "exercisetip": "1.太极拳练习要求心静体松，以意导气。2.太极拳练习时的呼吸是细、匀、缓、长的腹式呼吸。3.太极拳练习要求身体放松，按照前人练习太极拳的经验，应该是松衣宽带，身上不应该有紧束的感觉。4.如果在练习前，能做一些准备活动，如松肩松腿和练练桩功与深呼吸等，更能在练习时进人状态。",
+        "exerciseaffect": "1.加强了大脑的调节能力；2.对肌肉、骨骼和关节有良好作用；3.促进血液循环，增大肺活量；4.改善人体物质代谢；5.改善人体血脂水平；6.增强非特异性细胞免疫能力的作用。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 10
+    },
+    {
+        "exerciseid": 68,
+        "exercisename": "内家拳",
+        "exercisetypename": "武术",
+        "energywaste": "790.00",
+        "exercisetip": "1、长时间的练功会出汗，尤其是天热时会大汗淋淋，人就会大量的饮水，但不要暴饮狂喝，这样会伤身的。2、练功停止时，尤其是打完拳要将眼睛向上翻一会儿。3、练功时由于经脉畅通，分泌系统加速会产生大量的口水也就是唾液，在中国医学养生学中称“琼浆玉液”或叫“津液”。要自然的、慢慢地咽下去。4、练孙氏内家拳不要与别的拳种紧挨着练，尤其是不可以与外家拳及使蛮力的活动紧挨着练。5、练完功以后，除不要马上大吃大喝外，还不要急于去淋浴，要稍休息一会，再去洗澡，更不能图一时痛快搞冷水浴。",
+        "exerciseaffect": "入门容易，善于使用技巧制胜，不拘泥于招式，攻防兼备，以柔克刚，以弱胜强，以不变应万变；同时兼备有修身养生功效，修炼时间越长，威力越大。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 10
+    },
+    {
+        "exerciseid": 69,
+        "exercisename": "形意拳",
+        "exercisetypename": "武术",
+        "energywaste": "790.00",
+        "exercisetip": "1、长时间的练功会出汗，尤其是天热时会大汗淋淋，人就会大量的饮水，但不要暴饮狂喝，这样会伤身的。2、练功停止时，尤其是打完形意拳要将眼睛向上翻一会儿。3、练功时由于经脉畅通，分泌系统加速会产生大量的口水也就是唾液，在中国医学养生学中称“琼浆玉液”或叫“津液”。要自然的、慢慢地咽下去。4、练完功以后，除不要马上大吃大喝外，还不要急于去淋浴，要稍休息一会，再去洗澡，更不能图一时痛快搞冷水浴。",
+        "exerciseaffect": "1。三体式可以提高你的全身力量（一般的力量训练方法只是提高身体局部的力量）2。它可以锻炼你身体的协调能力。3。提高爆发力。4。反应能力。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 10
+    },
+    {
+        "exerciseid": 70,
+        "exercisename": "客家拳",
+        "exercisetypename": "武术",
+        "energywaste": "790.00",
+        "exercisetip": "1、长时间的练功会出汗，尤其是天热时会大汗淋淋，人就会大量的饮水，但不要暴饮狂喝，这样会伤身的。2、练功停止时，尤其是打完拳要将眼睛向上翻一会儿。3、练功时由于经脉畅通，分泌系统加速会产生大量的口水也就是唾液，在中国医学养生学中称“琼浆玉液”或叫“津液”。要自然的、慢慢地咽下去。4、练完功以后，除不要马上大吃大喝外，还不要急于去淋浴，要稍休息一会，再去洗澡，更不能图一时痛快搞冷水浴。",
+        "exerciseaffect": "入门容易，善于使用技巧制胜，不拘泥于招式，攻防兼备，以柔克刚，以弱胜强，以不变应万变；同时兼备有修身养生功效，修炼时间越长，威力越大。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 10
+    },
+    {
+        "exerciseid": 71,
+        "exercisename": "武式太极拳",
+        "exercisetypename": "武术",
+        "energywaste": "240.00",
+        "exercisetip": "1.太极拳练习要求心静体松，以意导气。2.太极拳练习时的呼吸是细、匀、缓、长的腹式呼吸。3.太极拳练习要求身体放松，按照前人练习太极拳的经验，应该是松衣宽带，身上不应该有紧束的感觉。4.如果在练习前，能做一些准备活动，如松肩松腿和练练桩功与深呼吸等，更能在练习时进人状态。",
+        "exerciseaffect": "1.加强了大脑的调节能力；2.对肌肉、骨骼和关节有良好作用；3.促进血液循环，增大肺活量；4.改善人体物质代谢；5.改善人体血脂水平；6.增强非特异性细胞免疫能力的作用。",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 10
+    },
+    {
+        "exerciseid": 72,
+        "exercisename": "咏春拳",
+        "exercisetypename": "武术",
+        "energywaste": "790.00",
+        "exercisetip": "一、练功时间：肾气归元功法练习时间宜是申时至亥时（即下午5时至晚上11时）。二、练功环境：最宜空气清新、人少寂静的地方，避免日照射和冷风吹袭。三、饮酒不要过量，要少饮，酒醉可使气乱，少饮也能助气。四、不要动怒，怒火伤肝，发生气逆，有害身体。五、在练功中不要讲话。六、一般三个月内腰后命门有温热感觉，由点及面遍及全身，但切不可盲目追求、要听其自然，听之任之。",
+        "exerciseaffect": "中国传统咏春拳的健体强身的作用不言而喻。其动作中的各种腿、手??、身体各关节拉伸拧动等动作，可使的骨骼力量和平衡能力得到增强，筋脉、关节的弹性得以提高，从而增强体力柔韧性协和平衡能力",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 10
+    },
+    {
+        "exerciseid": 73,
+        "exercisename": "拳击",
+        "exercisetypename": "对抗运动",
+        "energywaste": "720.00",
+        "exercisetip": "不要偏重于技术训练，身体素质第一重要，要强壮，力量沉雄;先基本掌握主用步法，再学拳姿;先练发力动作模式，再发力重击沙袋;击打沙袋要全心全意，要有假想敌;注意控制重击训练，别过度伤手，练“铁砂掌”对以后健康没好处",
+        "exerciseaffect": "可以增强人体的力量,可以提高人的灵敏性和反应能力,可以促进人的身心健康发展,是防身自卫的有效手段,具有广泛的社会影响作用",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": null
+    },
+    {
+        "exerciseid": 74,
+        "exercisename": "跆拳道",
+        "exercisetypename": "对抗运动",
+        "energywaste": "600.00",
+        "exercisetip": "1.注意礼仪,练习和比赛前后要向对手敬礼;2.做好热身,人体在激烈运动中最易受伤的大多是几个主要关节，如脖子的颈关节，胳膊的肩、肘关节，腿的髋、膝、踝关节以及连结上下肢躯干的腰椎等，应将这些关节作为重点加以活动，以防发生损伤;3.听从教练的安排,练习强度及练习量必须适当，依年龄大小、体格壮瘦、技术熟练、训练期别、疲劳恢复等渐进实施。一定要听从教练的安排，系统地练习跆拳道;4.做好放松训练结束后要进行全面的放松，让人体的各种生理机能慢慢调整到正常水平，有效地消除疲劳，缓解肌肉疼痛。剧烈运动后，不要立即坐下或躺着休息，应做些放松调整活动，如慢跑、再走几步、揉揉腿、做几下深呼吸等。这样能使快速血液循环慢慢平稳下来，减轻心脏负荷。运动后不宜立即大量饮水，冬天适合喝温开水，不宜马上洗澡、吹风，不宜立即进食。",
+        "exerciseaffect": "1. 有利于发达有力的肌肉;2. 培养活动力，培养应付任何难关的能力;3. 培养方向转换的能力;4. 培养在一定空间使身体迅速的从一个地点移到另一个地点的活动能力;5. 使关节、肌肉及筋更加柔韧有节奏性;6. 发达末梢神经和视觉;7. 培养集中力，取消杂念;8. 学会移动身体的方法和技术",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 11
+    },
+    {
+        "exerciseid": 75,
+        "exercisename": "美国拳击",
+        "exercisetypename": "对抗运动",
+        "energywaste": "720.00",
+        "exercisetip": "不要偏重于技术训练，身体素质第一重要，要强壮，力量沉雄;先基本掌握主用步法，再学拳姿;先练发力动作模式，再发力重击沙袋;击打沙袋要全心全意，要有假想敌;注意控制重击训练，别过度伤手，练“铁砂掌”对以后健康没好处",
+        "exerciseaffect": "可以增强人体的力量,可以提高人的灵敏性和反应能力,可以促进人的身心健康发展,是防身自卫的有效手段,具有广泛的社会影响作用",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 11
+    },
+    {
+        "exerciseid": 76,
+        "exercisename": "击剑",
+        "exercisetypename": "对抗运动",
+        "energywaste": "360.00",
+        "exercisetip": "准备活动要求，充分活动踝关节，膝关节，腕关节，肩关节，颈部，脊椎，大腿肌肉。通常的热身方式为，转动各部位关节，正，侧面压腿。热身活动时间不得低于十五分钟,在击剑过程中，千万要量力而行。以防脚踝，膝部，大腿肌肉等部位扭伤，拉伤,心态要平和，放松全身的肌肉",
+        "exerciseaffect": "??击剑可以锻炼身体的协调性，柔韧性和灵活性，培养良好的体能，增强体质。击剑运动可以锻炼反应能力。在搏击交手过程中，双方需要不断的观察，不断的思考，在进入交锋距离内、在有限的时间里，迅速做出反应，从而形成一种全新的思维模式，能够促进训练者的快速应变能力，尤其对青少年的头脑和智力以及身体的良好发育，都是一种非常有益的培养",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 11
+    },
+    {
+        "exerciseid": 77,
+        "exercisename": "摔跤",
+        "exercisetypename": "对抗运动",
+        "energywaste": "360.00",
+        "exercisetip": "一般禁止事项 禁止揪头发，抓耳朵，掐皮肤，咬人撅手指，脚指等，禁止使用目的在于让对手痛苦或者 迫使对方弃权的动作。 下列情况也是被禁止的： ·踢、打、推、用头顶撞窒息对手使用危及对手生命、造成四肢骨折或脱位的动作，踩对手的脚或 触及对手脸部（眉至嘴间的部位） ·用肘或膝盖顶对手的腹部或下腹部，引起痛苦的敏感部位，用跤衣缠住对手",
+        "exerciseaffect": "锻炼身体，平衡力，反应力，体力",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 11
+    },
+    {
+        "exerciseid": 78,
+        "exercisename": "职业摔跤",
+        "exercisetypename": "对抗运动",
+        "energywaste": "360.00",
+        "exercisetip": "职业摔跤虽然以表演娱乐为主，但是危险性很高，普通观众不可因好奇而模仿。而即使经过专业训练的运动员，不时也会发生事故意外甚至生命危险，这也令这项运动具有极高的观赏刺激性",
+        "exerciseaffect": "锻炼身体，平衡力，反应力，体力",
+        "temp_picturelocationid": "http://202.195.210.174:4312/static/pictures/test/edc544e5e43ad451f240ee680a983943.jpg",
+        "temp_exercisetypeid": 11
+    }
+]

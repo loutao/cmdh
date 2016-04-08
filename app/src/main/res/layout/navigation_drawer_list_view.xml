@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.njucm.cmdh.app.navigations.NavigationDrawerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@style/Wrap"
+    android:layout_marginBottom="@dimen/reset_dimen">
+
+    <ProgressBar
+        android:id="@+id/bookingProgress"
+        style="@style/Match"
+        android:layout_gravity="center" />
+
+    <ListView
+
+        android:id="@+id/leftDrawerListView"
+        android:layout_width="@dimen/navigation_drawer_width"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:cacheColorHint="@color/white"
+        android:choiceMode="singleChoice"
+        android:listSelector="@color/Turquoise"
+        android:divider="@color/white" />
+
+
+</com.njucm.cmdh.app.navigations.NavigationDrawerView>

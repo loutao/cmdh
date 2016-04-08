@@ -1,0 +1,35 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:scrollbars="none"
+    tools:context="com.njucm.cmdh.app.fragments.myhealthy.MyHealthFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include
+            android:id="@+id/myhealth_top_image"
+            layout="@layout/scoll_image_item" />
+
+        <GridView
+            android:id="@+id/gv_myhealth_grid"
+            android:background="@color/divider_color"
+            android:numColumns="2"
+            android:listSelector="@drawable/gridviewselector"
+            android:horizontalSpacing="1dp"
+            android:verticalSpacing="1dp"
+            android:gravity="center"
+            android:columnWidth="230dp"
+            android:stretchMode="columnWidth"
+            android:layout_below="@+id/myhealth_top_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp" />
+
+    </RelativeLayout>
+</ScrollView>

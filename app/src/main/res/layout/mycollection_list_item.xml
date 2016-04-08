@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="10dp"
+    android:id="@android:id/list">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:orientation="vertical"
+        android:background="#FFFFFF" >
+        <TextView
+            android:id="@+id/mycollection_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/black"
+            android:text="Adapter"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/gray"
+            android:id="@+id/handsgeshu"
+            android:layout_alignParentBottom="true"
+            android:text="7455"/>
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:id="@+id/stars"
+            android:src="@drawable/star_up"
+            android:layout_marginLeft="40dp"
+            android:layout_alignParentBottom="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2015/3/25"
+            android:id="@+id/time"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/gray"
+            android:layout_marginLeft="90dp"
+            android:textSize="16sp"
+            />
+        <in.srain.cube.image.CubeImageView
+            android:id="@+id/collection_img"
+            android:layout_width="@dimen/health_knowl_content_image_width"
+            android:layout_height="@dimen/health_knowl_content_image_height"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/banner4" />
+    </RelativeLayout>
+</RelativeLayout>

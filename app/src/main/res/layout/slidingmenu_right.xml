@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- <com.njucm.cmdh.slidemenu.SlidingMenu
+         android:id="@+id/slidingmenu"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">-->
+
+    <LinearLayout
+        android:id="@+id/linearDrawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/background_user_navigation_drawer"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/userDrawerHeader"
+            android:layout_width="@dimen/navigation_drawer_width"
+            android:layout_height="@dimen/navigation_drawer_personal_data_layout_height_right">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rl_user_base_info">
+
+                <Button
+                    android:id="@+id/drawerUserButton"
+                    android:layout_width="@dimen/iv_user_head_image_width"
+                    android:layout_height="@dimen/iv_user_head_image_height"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/head_image_margintop"
+                    android:layout_marginLeft="@dimen/head_image_marginleft"
+                    android:contentDescription="@string/app_name"
+                    android:background="@drawable/my_photo_for_drawer" />
+
+                <TextView
+                    android:id="@+id/drawerUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/username_margintop"
+                    android:layout_marginLeft="@dimen/username_marginleft"
+                    android:layout_toRightOf="@id/drawerUserButton"
+                    android:text="@string/no_login_name"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size_medium" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_below="@id/drawerUserName">
+
+                    <TextView
+                        android:id="@+id/tv_logout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="10dip"
+                        android:paddingBottom="10dip"
+                        android:textSize="14dip"
+                        android:text="@string/logout"
+                        android:visibility="gone" 
+                        android:textColor="@color/white"/>
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/drawerUserEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/drawerUserName"
+                    android:layout_below="@+id/drawerUserName"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_micro_1" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_user_base_info"
+                android:layout_marginTop="@dimen/userbaseinfo_margin"
+                android:layout_marginLeft="@dimen/user_useinfo_maginleft"
+                android:layout_marginRight="@dimen/user_useInfo_marginright"
+                android:layout_centerVertical="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="@dimen/use_useinfo_tag_width"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_collection_amount"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_medium"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="@dimen/use_useinfo_tag_width"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_collection_name"
+                        android:textColor="@color/DarkSeaGreen1"
+                        android:textSize="@dimen/text_size_micro_1"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="@dimen/use_useinfo_tag_width"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_claim_amount"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_medium"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="@dimen/use_useinfo_tag_width"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_claim_name"
+                        android:textColor="@color/DarkSeaGreen1"
+                        android:textSize="@dimen/text_size_micro_1"
+                        android:gravity="center" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="@dimen/use_useinfo_tag_width"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_usetime_amount"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_medium"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="@dimen/use_useinfo_tag_width"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_usetime_name"
+                        android:textColor="@color/DarkSeaGreen1"
+                        android:textSize="@dimen/text_size_micro_1"
+                        android:gravity="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <include
+
+            android:id="@+id/navigationDrawerListViewWrapper_right"
+            layout="@layout/slidingmenu_list_item_right" />
+
+
+        <RelativeLayout
+            style="@style/Match"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/user_login_info_margin">
+
+            <TextView
+                android:layout_marginRight="@dimen/user_info_list_marginright"
+                android:layout_marginLeft="@dimen/user_info_list_marginleft"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tv_user_info_listitem_height"
+                android:background="@color/light_grey" />
+
+            <LinearLayout
+                android:background="@color/white"
+                style="@style/MatchWidth"
+                android:layout_alignParentBottom="true">
+
+                <TextView
+
+                    android:layout_width="200dp"
+                    android:layout_height="15dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!--</com.njucm.cmdh.slidemenu.SlidingMenu>-->
+
+</LinearLayout>

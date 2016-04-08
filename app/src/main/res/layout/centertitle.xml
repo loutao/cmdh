@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="20.0sp"
+    android:textColor="@color/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:text="@string/bind_accessories"
+    android:layout_centerHorizontal="true"
+  >
+
+</TextView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/myhealth_grid_image"
+        android:layout_width="@dimen/health_knowl_content_image_width"
+        android:layout_height="@dimen/health_knowl_content_image_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_6"
+        android:src="@drawable/banner4" />
+
+    <TextView
+        android:id="@+id/myhealth_grid_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myhealth_grid_image"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
+

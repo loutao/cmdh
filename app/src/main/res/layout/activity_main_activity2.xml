@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.njucm.cmdh.app.activitys.MainActivity2">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tabmain_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eee"
+        android:layout_weight="1" />
+
+    <com.njucm.cmdh.viewpager.indicator.FixedIndicatorView
+        android:background="#fff"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/tabmain_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

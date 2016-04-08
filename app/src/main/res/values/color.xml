@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_color_1">#71C6F1</color>
+    <color name="main_color_2">#CCFF66</color>
+    <color name="main_color_3">#FFFFFF</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#666666</color>
+    <color name="gray_shadow">#cccccc</color>
+    <color name="grey_background">#eeeeee</color>
+    <color name="black">#000000</color>
+    <color name="background_user_navigation_drawer">#161F29</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey_font">#333333</color>
+    <color name="grey_font1">#333333</color>
+    <color name="grey_font2">#555555</color>
+
+
+    <color name="blue_light">#33B5E5</color>
+    <color name="purple_light">#AA66CC</color>
+    <color name="green_light">#99CC00</color>
+    <color name="orange_light">#FFBB33</color>
+    <color name="red_light">#FF4444</color>
+
+    <color name="blue_dark">#0099CC</color>
+    <color name="purple_dark">#9933CC</color>
+    <color name="green_dark">#669900</color>
+    <color name="orange_dark">#FF8800</color>
+    <color name="red_dark">#CC0000</color>
+
+    <color name="material_pink">#e91e63</color>
+    <color name="material_blue">#5677fc</color>
+    <color name="tab_main_text_1">#aaa</color>
+    <color name="tab_main_text_2">#74b5f7</color>
+    <color name="tab_top_text_1">#aaa</color>
+    <color name="tab_top_text_2">#000</color>
+
+
+    <!--滑动图片-->
+    <color name="almost_white_bg">#FAFAFA</color>
+    <color name="dark_gray_bg">#2E2E2E</color>
+    <color name="listText">#2E2E2E</color>
+    <color name="material_green">#0a8f08</color>
+    <color name="material_light_green">#2baf2b</color>
+    <color name="material_red">#e51c23</color>
+    <color name="material_light_red">#e84e40</color>
+    <color name="material_light_pink">#f06292</color>
+    <color name="material_purple">#9c27b0</color>
+    <color name="material_light_purple">#ba68c8</color>
+    <color name="material_teal">#009688</color>
+    <color name="material_light_teal">#4db6ac</color>
+    <color name="material_lighter_blue">#03a9f4</color>
+    <color name="material_lighter_light_blue">#4fc3f7</color>
+
+    <!--图表-->
+    <color name="deepsleepcolor">#2a8fbd</color>
+    <color name="shadrrowsleepcolor">#b0e0e6</color>
+    
+    
+    <!--滚动图片-->
+    <color name="drop_down_list_header_font_color">#A72309</color>
+    <!-- drop down list header second font color -->
+    <color name="drop_down_list_header_second_font_color">#729045</color>
+    <!-- drop down list footer font color -->
+    <color name="drop_down_list_footer_font_color">#5200D5</color>
+
+    <color name="divider_color">#D8D8D8</color>
+    <color name="light_grey">#cccccc</color>
+
+    <!--我的体质测试历史背景色-->
+    <color name="historylist_gray">#A1A1A1</color>
+    <color name="light_blue">@android:color/holo_blue_light</color>
+
+    <!--flat ui 颜色-->
+    <color name="custom_theme_darker">#ad843d</color>
+    <color name="custom_theme_dark">#d4a14a</color>
+    <color name="custom_theme_primary">#fbbf58</color>
+    <color name="custom_theme_light">#fae8c8</color>
+    <integer-array name="custom_theme">
+        <item>@color/custom_theme_darker</item> <!-- really much darker color of main color -->
+        <item>@color/custom_theme_dark</item> <!-- a bit darker color of your main color -->
+        <item>@color/custom_theme_primary</item> <!-- main color of your theme -->
+        <item>@color/custom_theme_light</item> <!-- really much lighter color of main color -->
+    </integer-array>
+
+    <color name="grey_8e">#8E8E8E</color>
+    <color name="sgrey">#6c6c6c</color>
+
+    <color name="medium_grey">#808080</color>
+    <color name="maincolor">#669900</color>
+    
+    <!--Login模塊-->
+    <color name="common_or">#fd5003</color>
+    <color name="color_cmtyinyong_blue">#ff5183c0</color>
+
+
+</resources>

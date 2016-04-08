@@ -1,0 +1,18 @@
+{
+        "recommendedconditionsmappid": 1, 
+        "temp_healthsuggestlimitedid": "平和质", 
+        "temp_healthsuggestid": {
+            "healthsuggestid": 19, 
+            "healthsuggestcontent": "对于气虚体质的老年人应多吃具有益气健脾作用的食物，如粳米、小米、黄米、大麦、黄豆、白扁豆、豇豆、蚕豆、豌豆、土豆、白薯、红薯、山药、胡萝卜、香菇、鲫鱼、鹌鹑、鹅肉、羊心、羊肚、莲子、蘑菇、芡实、栗子、人参等。少吃具有耗气作用的食物，如槟榔、空心菜等。", 
+            "healthsuggesttitle": "平和质饮食建议", 
+            "healthsuggestremarks": "", 
+            "temp_healthsuggtypeid": "体质与饮食建议", 
+            "healthsuggestflag": 2, 
+            "healthsuggestcode": 1, 
+            "temp_picturelocationid": {
+                "originalpicturepath": "static/pictures/healthknowledge/yimilvdou_2.png", 
+                "picturename": "薏米绿豆粥"
+            }
+        }, 
+        "recommendmappremarks": "平和质饮食建议"
+    }

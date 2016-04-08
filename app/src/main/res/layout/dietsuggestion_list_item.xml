@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="0dp">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dip"
+        android:background="#FFFFFF" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hidecode"
+            android:visibility="gone"/>
+        <RelativeLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:orientation="vertical"
+            android:background="@drawable/app_list_corner_round">
+
+
+            <in.srain.cube.image.CubeImageView
+                android:id="@+id/yinshiimg"
+                android:layout_alignParentTop="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/dp_6"
+                android:scaleType="fitCenter"
+                android:padding="@dimen/dp_3"
+                android:background="@drawable/image_border"
+                />
+            <TextView
+                android:id="@+id/suggestiontitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:background="@drawable/thumb_heart_round_corner"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/yinshiimg"
+                android:text=""
+                android:textSize="18sp"
+                />
+            <View
+                android:id="@+id/suggestline"
+                android:layout_width="fill_parent"
+                android:layout_below="@id/suggestiontitle"
+                android:layout_height="10dip"
+                />
+            <TextView
+                android:id="@+id/suggestinfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/suggestline"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingMultiplier="1.3"
+                android:textSize="18sp"
+                android:textColor="@color/gray"
+                android:text="" />
+            <TextView
+                android:id="@+id/suggesttime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/suggestinfo"
+                android:layout_marginTop="@dimen/dp_10"
+                android:lineSpacingMultiplier="1.3"
+                android:textSize="18sp"
+                android:textColor="@color/grey_font4"
+                android:layout_alignLeft="@id/suggestinfo"
+                android:text="2015/3/22" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/suggesttime"
+                android:layout_alignRight="@id/suggestinfo"
+                android:orientation="horizontal"
+                android:layout_alignParentRight="true">
+                <com.beardedhen.androidbootstrap.FontAwesomeText
+                    android:layout_width="wrap_content"
+                    android:id="@+id/row"
+                    android:layout_height="wrap_content"
+                    app:fa_icon="fa-angle-double-right"
+                    android:textColor="@color/grey_font4"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:layout_alignParentRight="true"
+                    android:textSize="@dimen/sp_16"
+                    android:layout_centerVertical="true"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/grey_font4"
+                    android:layout_toLeftOf="@id/row"
+                    android:layout_marginRight="@dimen/dp_10"
+                    android:textSize="@dimen/sp_16"
+                    android:text="查看详细"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

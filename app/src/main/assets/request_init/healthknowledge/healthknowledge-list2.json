@@ -1,0 +1,19 @@
+{
+    "count": 35, 
+    "next": "http://10.120.59.9:81/tbtcmhealthknowledge/?page=2", 
+    "previous": null, 
+    "results": [
+        {
+            "healthknowledgeid": 2, 
+            "healthknowledgetitle": "温阳补气", 
+            "healthknowledgecontent": "多晒太阳（百会穴），不熬夜，热水泡脚。 调养  金匮肾气丸（熟地、肉桂、附片、山芋、山药、丹皮、茯苓、泽泻） 韭菜加核桃枣温效果好（阴虚及面部长痘，过敏者不吃韭菜）、生姜（加红枣温阳又补气）、 桃树枝敲打督脉", 
+            "exersuggtime": "2015-03-18 00:00:00", 
+            "temp_managerid": 1, 
+            "healthknowledgeremarks": "1", 
+            "temp_healthknowltypeid": 2, 
+            "healthknowledgecode": null, 
+            "healthknowledgeflag": null, 
+            "temp_picturelocationid": ""
+        }
+    ]
+}

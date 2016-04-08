@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.oguzdev.circularfloatingactionmenu.samples.MenuWithCustomAnimationActivity"
+    tools:ignore="MergeRootFrame"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/divider_color"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:id="@+id/top_bar">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_shadow"
+            android:text="专家收藏"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_16"/>
+        </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/containerofmenu"
+        android:layout_below="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/divider_color"
+        tools:context="com.oguzdev.circularfloatingactionmenu.samples.MenuWithCustomAnimationActivity"
+        tools:ignore="MergeRootFrame" />
+</RelativeLayout>

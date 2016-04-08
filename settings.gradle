@@ -1,0 +1,3 @@
+include ':app', ':library', ':MyDaoGenerator', ':SlidingMenu', ':DeviceService', ':slideDateTimePicker'
+include ':slideMenu_Library'
+include ':viewPagerIndicator_Library'

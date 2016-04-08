@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="myconstitution_url">http://10.120.59.9:81/tbconstituteidentifyresult</string>
+    <string name="identifyquestion_url">http://10.120.59.9:81/tbidentificationissuess</string>
+    <string name="physiqueinfoid">/?temp_physiqueinfoid=</string>
+    <string name="eating">http://10.120.59.9:81/eating</string>
+    <!--基础URL-->
+    <string name="base_url">http://10.120.59.9:81</string>
+    <!--养生知识请求URL-->
+    <string name="tcmhealthknowledge_url">tbtcmhealthknowledge</string>
+    <!--养生知识类型请求URL-->
+    <string name="healthknowledgetype_url">tbhealthknowledgetype</string>
+    <!--用户养生知识映射关系请求URL-->
+    <string name="userknowledgemapp_url">tbuserknowledgemapp</string>
+    <!--用户健康建议映射关系请求RUL-->
+    <string name="healthsuggestionsmapp_url">tbhealthsuggestionsmapp</string>
+    <!--健康建议类型请求URL-->
+    <string name="healthsuggtype_url">tbhealthsuggtype</string>
+    <!--健康建议信息请求URL-->
+    <string name="healthsuggestions_url">tbhealthsuggestions</string>
+    <!--体质信息请求URL-->
+    <string name="physiqueinfo_url">tbphysiqueinfo</string>
+    <!--体质辨识问卷选项请求URL-->
+    <string name="identifychoices_url">tbidentifychoices</string>
+    <!--体质辨识问题请求URL-->
+    <string name="identificationissuess_url">tbidentificationissuess</string>
+    <!--用户答题记录请求URL-->
+    <string name="useranswerrecords_url">tbuseranswerrecords</string>
+    <!--体质辨识结果请求URL-->
+    <string name="constituteidentifyresult_url">tbconstituteidentifyresult</string>
+    <!--用户基本信息请求URL-->
+    <string name="user_url">tbuser</string>
+    <!--用户运动特征请求URL-->
+    <string name="userexercisefeature_url">tbuserexercisefeature</string>
+    <!--用户睡眠特征请求URL-->
+    <string name="usersleepfeature_url">tbusersleepfeature</string>
+    <!--用户饮食特征请求URL-->
+    <string name="foodfeature_url">tbfoodfeature</string>
+    <!--饮食信息记录请求URL-->
+    <string name="dietaryrecords_url">tbdietaryrecords</string>
+    <!--饮食状况分析记录请求URL-->
+    <string name="eatinganalysis_url">tbeatinganalysis</string>
+    <!--运动信息记录请求URL-->
+    <string name="sportinforecords_url">tbsportinforecords</string>
+    <!--睡眠信息记录请求URL-->
+    <string name="sleepinforecords_url">tbsleepinforecords</string>
+    <!--饮食偏好记录请求URL-->
+    <string name="eatingpreferrecords_url">tbeatingpreferrecords</string>
+    <!--睡眠偏好记录请求URL-->
+    <string name="sleeppreferrecords_url">tbsleeppreferrecords</string>
+    <!--运动偏好记录请求URL-->
+    <string name="exercisepreferrecords_url">tbexercisepreferrecords</string>
+
+</resources>

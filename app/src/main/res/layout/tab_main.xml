@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#0b263639">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:paddingTop="0dp"
+        android:background="@color/Gray_LightGray" />
+
+    <com.beardedhen.androidbootstrap.FontAwesomeText
+        android:id="@+id/navigationDrawerItemIconMainIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/tab_main_selector"
+        android:textSize="20sp"></com.beardedhen.androidbootstrap.FontAwesomeText>
+
+    <TextView
+        android:id="@+id/navigationDrawerItemIconMainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/tab_main_selector"
+        android:textSize="14sp" />
+</LinearLayout>

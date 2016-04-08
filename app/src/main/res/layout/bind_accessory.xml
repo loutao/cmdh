@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/window_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <!-- <RelativeLayout style="@style/top">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@+id/return_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                style="@style/ReturnBack_ImageButton_Style" />
+        </LinearLayout>
+
+        <TextView
+            android:textSize="20.0sp"
+            android:textColor="@color/title"
+            android:id="@+id/close_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bind_accessories"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true" />
+
+        <Button
+            android:textSize="18.0sp"
+            android:id="@+id/accessory_more_btn"
+            android:text="@string/device_codoon_more"
+            style="@style/Submit_Button_Style" />
+    </RelativeLayout>-->
+    <ScrollView
+        android:id="@+id/scrollViewMain"
+        android:scrollbars="none"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingLeft="10.0dip"
+            android:paddingRight="10.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <LinearLayout
+                android:id="@+id/bind_codoon_rom_band"
+                android:background="@drawable/bg_accessory_item"
+                android:paddingRight="10.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="2.0dip"
+                    android:src="@drawable/ic_codoon_znsh2"
+                    android:scaleType="center" />
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="1.0">
+
+                    <TextView
+                        android:textSize="18.0sp"
+                        android:textColor="@color/codoon_black_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_codoon_rom" />
+
+                    <TextView
+                        android:textSize="14.0sp"
+                        android:textColor="#ffb9b9b9"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_ble_describe"
+                        android:maxLines="1" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/icon_right_arrow_userinfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10.0dip" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bind_codoon_weixin_band"
+                android:background="@drawable/bg_accessory_item"
+                android:paddingRight="10.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25.0dip">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="2.0dip"
+                    android:src="@drawable/ic_codoon_znsh2"
+                    android:scaleType="center" />
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="1.0">
+
+                    <TextView
+                        android:textSize="18.0sp"
+                        android:textColor="@color/codoon_black_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_codoon_weixin_band" />
+
+                    <TextView
+                        android:textSize="14.0sp"
+                        android:textColor="#ffb9b9b9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_ble_describe"
+                        android:maxLines="1" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/bind_type_add"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bind_codoon_bleband"
+                android:background="@drawable/bg_accessory_item"
+                android:paddingRight="10.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="2.0dip"
+                    android:src="@drawable/ic_codoon_znsh2"
+                    android:scaleType="center" />
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="1.0">
+
+                    <TextView
+                        android:textSize="18.0sp"
+                        android:textColor="@color/codoon_black_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_codoon_bandBLE" />
+
+                    <TextView
+                        android:textSize="14.0sp"
+                        android:textColor="#ffb9b9b9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_ble_describe"
+                        android:maxLines="1" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/bind_type_add"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bind_codoon_znwb"
+                android:background="@drawable/bg_accessory_item"
+                android:paddingRight="10.0dip"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="2.0dip"
+                    android:src="@drawable/ic_codoon_znwb"
+                    android:scaleType="center" />
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="1.0">
+
+                    <TextView
+                        android:textSize="18.0sp"
+                        android:textColor="@color/codoon_black_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_codoon_znwb" />
+
+                    <TextView
+                        android:textSize="14.0sp"
+                        android:textColor="#ffb9b9b9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_ble_describe"
+                        android:maxLines="1" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/bind_type_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+          <!--  <LinearLayout
+                android:id="@+id/bind_codoon_smile"
+                android:background="@drawable/bg_accessory_item"
+                android:paddingRight="10.0dip"
+                android:visibility="visible"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="2.0dip"
+                    android:src="@drawable/ic_codoon_znwb"
+                    android:scaleType="center" />
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="1.0">
+
+                    <TextView
+                        android:textSize="18.0sp"
+                        android:textColor="@color/codoon_black_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_codoon_smile" />
+
+                    <TextView
+                        android:textSize="14.0sp"
+                        android:textColor="#ffb9b9b9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_ble_describe"
+                        android:maxLines="1" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/bind_type_add"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:id="@+id/bind_codoon_zte"
+                android:background="@drawable/bg_accessory_item"
+                android:paddingRight="10.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="2.0dip"
+                    android:src="@drawable/ic_codoon_znsh2"
+                    android:scaleType="center" />
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="1.0">
+
+                    <TextView
+                        android:textSize="18.0sp"
+                        android:textColor="@color/codoon_black_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_codoon_zte" />
+
+                    <TextView
+                        android:textSize="14.0sp"
+                        android:textColor="#ffb9b9b9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_ble_describe"
+                        android:maxLines="1" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/bind_type_add"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bind_codoon_lenovo_band"
+                android:background="@drawable/bg_accessory_item"
+                android:paddingRight="10.0dip"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="2.0dip"
+                    android:src="@drawable/ic_codoon_znsh2"
+                    android:scaleType="center" />
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="1.0">
+
+                    <TextView
+                        android:textSize="18.0sp"
+                        android:textColor="@color/codoon_black_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_codoon_lenovo" />
+
+                    <TextView
+                        android:textSize="14.0sp"
+                        android:textColor="#ffb9b9b9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_heart_band_des"
+                        android:maxLines="1" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/bind_type_add"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+           <!-- <LinearLayout
+                android:id="@+id/bind_codoon_candy"
+                android:background="@drawable/bg_accessory_item"
+                android:paddingRight="10.0dip"
+                android:visibility="visible"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15.0dip">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    android:src="@drawable/ic_codoon_tg"
+                    android:scaleType="center" />
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="1.0">
+
+                    <TextView
+                        android:textSize="18.0sp"
+                        android:textColor="@color/codoon_black_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_codoon_candy" />
+
+                    <TextView
+                        android:textSize="14.0sp"
+                        android:textColor="#ffb9b9b9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_common_describe" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/bind_type_add"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:id="@+id/bind_codoon_band"
+                android:background="@drawable/bg_accessory_item"
+                android:paddingRight="10.0dip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10.0dip">
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:layout_width="50.0dip"
+                    android:layout_height="50.0dip"
+                    android:layout_marginLeft="2.0dip"
+                    android:src="@drawable/ic_codoon_sh_s"
+                    android:scaleType="center" />
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5.0dip"
+                    android:layout_weight="1.0">
+
+                    <TextView
+                        android:textSize="18.0sp"
+                        android:textColor="@color/codoon_black_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_codoon_band" />
+
+                    <TextView
+                        android:textSize="14.0sp"
+                        android:textColor="#ffb9b9b9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/device_heart_band_des"
+                        android:maxLines="1" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/bind_type_add"
+                    android:visibility="gone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

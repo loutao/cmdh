@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- 最上面部分开始 -->
+    <!-- <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="@color/common_or"
+         android:padding="8dp" >
+         &lt;!&ndash; 按钮slidingmenu &ndash;&gt;
+         &lt;!&ndash; 居中logo &ndash;&gt;
+         <ImageView
+             android:id="@+id/iv_back"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentLeft="true"
+             android:layout_marginRight="5dp"
+             android:background="@drawable/me_back_button_normal" />
+
+
+         &lt;!&ndash; 居中logo &ndash;&gt;
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             android:textColor="@color/white"
+             android:text="登录"
+             android:textSize="18dip"
+             android:textStyle="bold"
+             />
+
+
+     </RelativeLayout>-->
+    <!--最上面部分结束  -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/et_login"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:layout_marginLeft="@dimen/login_edit_mar_left"
+            android:layout_marginRight="@dimen/login_edit_mar_right"
+            android:layout_marginTop="@dimen/login_username_mar_top"
+            android:background="@drawable/edit_bg"
+            android:hint="@string/UserName"
+            android:paddingLeft="10.0dip"
+            android:singleLine="true"
+            android:textSize="@dimen/login_edit_text_size" />
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="fill_parent"
+            android:layout_height="45.0dip"
+            android:layout_marginLeft="@dimen/login_edit_mar_left"
+            android:layout_marginRight="@dimen/login_edit_mar_right"
+            android:layout_marginTop="@dimen/login_password_mar_top"
+            android:background="@drawable/edit_bg"
+            android:hint="@string/UserPasswd"
+            android:paddingLeft="10.0dip"
+            android:password="true"
+            android:singleLine="true"
+            android:textSize="@dimen/login_edit_text_size" />
+
+        <TextView
+            android:id="@+id/tv_forget_pw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/login_edit_mar_left"
+            android:layout_marginTop="10.0dip"
+            android:text="@string/FindPasswd"
+            android:textColor="@color/color_cmtyinyong_blue"
+            android:textSize="15.0dip" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/login_login_height"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/login_login_mar_top">
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="@dimen/login_login_width"
+                android:layout_height="@dimen/login_login_height"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/myself_btn_bg"
+                android:gravity="center"
+                android:text="登录"
+                android:textColor="#ffe6312a"
+                android:textSize="@dimen/login_login_text_size" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_regist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/login_edit_mar_left"
+            android:layout_marginTop="20.0dip"
+            android:text="还没有账号？注册>"
+            android:textColor="#ff5183c0"
+            android:textSize="15.0dip" />
+    </LinearLayout>
+
+</LinearLayout>
+

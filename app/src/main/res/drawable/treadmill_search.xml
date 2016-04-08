@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="150" android:drawable="@drawable/ic_treadmill_search1" />
+    <item android:duration="150" android:drawable="@drawable/ic_treadmill_search2" />
+    <item android:duration="150" android:drawable="@drawable/ic_treadmill_search3" />
+    <item android:duration="150" android:drawable="@drawable/ic_treadmill_search4" />
+</animation-list>

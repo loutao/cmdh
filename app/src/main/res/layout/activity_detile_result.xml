@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--  <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+          <WebView
+              android:id="@+id/detile_result_webview"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"></WebView>
+      </FrameLayout>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_healthknowltitle"
+        android:layout_marginStart="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_exersuggtime"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="@dimen/padding_small"
+        android:layout_below="@+id/tv_healthknowltitle"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_small"
+        android:layout_marginRight="@dimen/padding_small"
+        android:layout_marginLeft="@dimen/padding_small"
+        android:id="@+id/tv_healthknowlcontent"
+        android:layout_centerHorizontal="true" 
+        android:layout_below="@+id/tv_exersuggtime"/>
+</RelativeLayout>

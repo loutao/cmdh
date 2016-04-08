@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_shark">#A6FFA6</color>
+    <color name="E0E0E0">#E0E0E0</color>
+    <color name="F0F0F0">#F0F0F0</color>
+    <color name="greyfont3">#9D9D9D</color>
+    <color name="grey_font4">#ADADAD</color>
+    <color name="EOgrey">#E0E0E0</color>
+    <color name="F0grey">#FCFCFC</color>
+    <color name="oriji">#FF6600</color>
+    <color name="grey_ff">#FFF8DC</color>
+</resources>

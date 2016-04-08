@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fontawesometext="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/solid"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:layout_above="@+id/goToTry"
+
+        >
+
+        <ScrollView
+            android:id="@+id/scView"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"
+            android:scrollbarStyle="outsideOverlay"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/tv_zongtizezheng"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="@dimen/text_size_medium2"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:text="总体特征" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/tv_considentyline_height"
+                    android:background="@color/light_grey"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.beardedhen.androidbootstrap.FontAwesomeText
+                        android:id="@+id/tv_zhongti_bootstrap"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_medium1"
+                        fontawesometext:fa_icon="fa-check"
+                        android:textColor="@color/green_light"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:id="@+id/general_characteristics"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:text=" "
+
+                        android:textSize="@dimen/text_size_micro_1" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="形体表现"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="@dimen/text_size_medium2"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/tv_considentyline_height"
+                    android:background="@color/light_grey"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.beardedhen.androidbootstrap.FontAwesomeText
+                        android:id="@+id/tv_xingti_bootstrap"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_medium1"
+                        fontawesometext:fa_icon="fa-check"
+                        android:textColor="@color/green_light"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:id="@+id/physical_performance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="5dp"
+
+                        android:textSize="@dimen/text_size_micro_1"
+                        android:text=" " />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="常见表现"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="@dimen/text_size_medium2"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/tv_considentyline_height"
+                    android:background="@color/light_grey"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.beardedhen.androidbootstrap.FontAwesomeText
+                        android:id="@+id/tv_changjian_bootstrap"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_medium1"
+                        fontawesometext:fa_icon="fa-check"
+                        android:textColor="@color/green_light"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:id="@+id/common"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:textSize="@dimen/text_size_micro_1"
+
+                        android:text=" " />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="心理特征"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="@dimen/text_size_medium2"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/tv_considentyline_height"
+                    android:background="@color/light_grey"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.beardedhen.androidbootstrap.FontAwesomeText
+                        android:id="@+id/tv_xinli_bootstrap"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_medium1"
+                        fontawesometext:fa_icon="fa-check"
+                        android:textColor="@color/green_light"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:id="@+id/psychological_characteristics"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:textSize="@dimen/text_size_micro_1"
+                        android:text=" " />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="发病倾向"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="@dimen/text_size_medium2"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/tv_considentyline_height"
+                    android:background="@color/light_grey"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.beardedhen.androidbootstrap.FontAwesomeText
+                        android:id="@+id/tv_fabing_bootstrap"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_medium1"
+                        fontawesometext:fa_icon="fa-check"
+                        android:textColor="@color/green_light"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:id="@+id/incidence_tendency"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:textSize="@dimen/text_size_micro_1"
+                        android:text=" " />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="对外界环境适应能力"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textSize="@dimen/text_size_medium2"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/tv_considentyline_height"
+                    android:background="@color/light_grey"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.beardedhen.androidbootstrap.FontAwesomeText
+                        android:id="@+id/tv_shiying_bootstrap"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_medium1"
+                        fontawesometext:fa_icon="fa-check"
+                        android:textColor="@color/green_light"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:id="@+id/external_adaptability"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="5dp"
+                        android:textSize="@dimen/text_size_micro_1"
+                        android:text=" " />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/goToTry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/submit_button"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:text="我要测试" />
+</RelativeLayout>

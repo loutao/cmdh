@@ -1,0 +1,187 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="start_z">2dp</dimen>
+    <dimen name="end_z">5dp</dimen>
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navdrawer_width">260dp</dimen>
+    <dimen name="action_bar_height">48dp</dimen>
+    <dimen name="default_horizontal_margin">16dp</dimen>
+    <dimen name="default_vertical_margin">16dp</dimen>
+    <dimen name="default_padding">16dp</dimen>
+    <dimen name="default_small_padding">8dp</dimen>
+    <dimen name="reset_dimen">0dp</dimen>
+
+    <!-- Navigation Drawer -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="navigation_drawer_image_view_size">25dp</dimen>
+
+    <dimen name="navigation_drawer_personal_data_layout_height">16dp</dimen>
+    <dimen name="navigation_drawer_personal_data_layout_height_right">150dp</dimen>
+
+    <!-- Circle size -->
+    <dimen name="circle_width">240dp</dimen>
+    <dimen name="circle_height">240dp</dimen>
+
+    <!-- Fonts' sizes -->
+    <dimen name="text_size_micro_05">5sp</dimen>
+    <dimen name="text_size_micro_06">6sp</dimen>
+    <dimen name="text_size_micro_07">7sp</dimen>
+    <dimen name="text_size_micro_08">8sp</dimen>
+    <dimen name="text_size_micro_09">9sp</dimen>
+    <dimen name="text_size_micro_0">10sp</dimen>
+    <dimen name="text_size_micro_1">16sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">15sp</dimen>
+    <dimen name="text_size_medium1">16sp</dimen>
+    <dimen name="text_size_medium2">18sp</dimen>
+    <dimen name="text_size_medium3">20sp</dimen>
+    <dimen name="text_size_large">22sp</dimen>
+    <dimen name="text_size_xlarge">28sp</dimen>
+    <dimen name="text_size_fragment_number">122sp</dimen>
+    <dimen name="ap_base_menu_shadow_offset">80dp</dimen>
+    <dimen name="ap_base_menu_shadow_width">16dp</dimen>
+    <dimen name="tab_top_fontsize">14sp</dimen>
+
+
+    <!--滑动图片-->
+    <dimen name="header_height">300dp</dimen>
+    <dimen name="mock_item_padding">10dp</dimen>
+    <dimen name="mock_item_textsize">22dp</dimen>
+    <dimen name="header_height_test">1000px</dimen>
+    <!--顶部导航paddingTop-->
+    <dimen name="viewpage_paddingTop">8dp</dimen>
+    <dimen name="viewpage_height">35dp</dimen>
+
+    <dimen name="pager_margin">45dp</dimen>
+    <dimen name="page_margin">15dp</dimen>
+    <dimen name="dp_0">0dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_20">20dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_50">50dp</dimen>
+    <dimen name="dp_70">70dp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="search_view_margin_left">55dp</dimen>
+    <dimen name="divider_height">2px</dimen>
+    <dimen name="view_pager_witdh">450dp</dimen>
+    <dimen name="view_pager_height">215dp</dimen>
+    <dimen name="image_width">450dp</dimen>
+    <dimen name="image_height">300dp</dimen>
+
+    <dimen name="health_knowl_list_kind_height">30dp</dimen>
+    <dimen name="health_knowl_list_item_height">30dp</dimen>
+    <dimen name="health_knowl_kind_image_height">80dp</dimen>
+    <dimen name="health_knowl_kind_image_width">110dp</dimen>
+    <dimen name="health_knowl_content_image_width">70dp</dimen>
+    <dimen name="health_knowl_content_image_height">70dp</dimen>
+    <dimen name="transparent_textview_width">0dp</dimen>
+    <dimen name="myconstitution_height">200dp</dimen>
+    <!--我的体质里面的图片大小-->
+    <dimen name="myconstitution_width">120dp</dimen>
+
+    <dimen name="pie_chart_text1_size">42sp</dimen>
+    <dimen name="pie_chart_text2_size">16dp</dimen>
+    <dimen name="slidingmenu_offset">240dp</dimen>
+    <dimen name="user_login_info_margin">-5dp</dimen>
+    <dimen name="userbaseinfo_margin">20dp</dimen>
+    <dimen name="iv_user_head_image_width">50dp</dimen>
+    <dimen name="iv_user_head_image_height">50dp</dimen>
+    <dimen name="head_image_marginleft">16dp</dimen>
+    <dimen name="username_margintop">20dp</dimen>
+    <dimen name="username_marginleft">10dp</dimen>
+    <dimen name="head_image_margintop">10dp</dimen>
+    <dimen name="use_useinfo_tag_width">40dp</dimen>
+    <dimen name="user_useinfo_maginleft">20dp</dimen>
+    <dimen name="user_useInfo_marginright">15dp</dimen>
+    <dimen name="user_info_listitem_height">1dp</dimen>
+    <dimen name="user_info_list_marginleft">5dp</dimen>
+    <dimen name="user_info_list_marginright">5dp</dimen>
+    <dimen name="tv_user_info_listitem_height">1dp</dimen>
+    <dimen name="sp_13">13sp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_2">2dp</dimen>
+    <dimen name="loading_margin_top">28dp</dimen>
+    <dimen name="sp_8">8sp</dimen>
+    <dimen name="dp_18">18dp</dimen>
+    <!--图表定位-->
+    <dimen name="sport_chart_padding_left">16dp</dimen>
+    <dimen name="sport_chart_padding_right">16dp</dimen>
+    <dimen name="sport_chart_padding_top">5dp</dimen>
+    <dimen name="red_action_button_size">108dp</dimen>
+    <dimen name="red_action_button_content_size">16dp</dimen>
+    <dimen name="red_action_button_content_margin">36dp</dimen>
+    <dimen name="red_action_menu_radius">96dp</dimen>
+    <dimen name="blue_sub_action_button_size">48dp</dimen>
+    <dimen name="blue_sub_action_button_content_margin">16dp</dimen>
+    <dimen name="re_sport_detail_paddingright">1dp</dimen>
+    <dimen name="re_sport_detail_paddingleft">1dp</dimen>
+    <dimen name="re_sport_detail_paddingtop">3dp</dimen>
+    <dimen name="re_sport_detail_paddingbottom">3dp</dimen>
+    <dimen name="re_sport_detail_marginright">5dp</dimen>
+    <dimen name="re_sport_detail_marginleft">5dp</dimen>
+    <dimen name="tv_considentyline_height">1dp</dimen>
+    <dimen name="graphbottoncorners">2dp</dimen>
+    <dimen name="paddingzero">0dp</dimen>
+    <dimen name="tv_datepaddingarrowleft">5dp</dimen>
+    <dimen name="tv_datepaddingarrowright">5dp</dimen>
+    <dimen name="tb_sportdetile_margintop">-2dp</dimen>
+    <dimen name="tb_sportdetile_margintitle">-1dp</dimen>
+    <dimen name="padding_small0">4dp</dimen>
+    <dimen name="datechangeview_width">35dp</dimen>
+    <dimen name="datechangeview_height">35dp</dimen>
+    <dimen name="re_sport_analysis_marginright">5dp</dimen>
+    <dimen name="re_sport_analysis_marginleft">5dp</dimen>
+    <dimen name="general_table_distance">6dp</dimen>
+    <dimen name="toolicon_width">30dp</dimen>
+    <dimen name="toolicon_height">30dp</dimen>
+    <dimen name="floatbutton_width">52dp</dimen>
+    <dimen name="floatbutton_height">52dp</dimen>
+    <dimen name="floatbutton_margin_right">16dp</dimen>
+    <dimen name="floatbutton_margin_bottom">46dp</dimen>
+    <dimen name="toolicon_padd_right">80dp</dimen>
+    <dimen name="tb_sportanalysis_margintop">8dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="sp_60">60sp</dimen>
+    <dimen name="sp_30">30sp</dimen>
+    <dimen name="sp_45">45sp</dimen>
+    <dimen name="dp_05">0.5dp</dimen>
+    <dimen name="dp_11">11dp</dimen>
+    <dimen name="dp_9">9dp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="dp_03">0.3dp</dimen>
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_55">55dp</dimen>
+    <dimen name="dp_15">15dp</dimen>
+    <dimen name="dp_5">5dp</dimen>
+    <dimen name="dp_3">3dp</dimen>
+    <dimen name="dp_80">80sp</dimen>
+    <dimen name="dp_25">25dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_150">150dp</dimen>
+
+    <dimen name="login_edit_mar_left">25.0dp</dimen>
+    <dimen name="login_edit_mar_right">25.0dp</dimen>
+    <dimen name="login_username_mar_top">31.0dp</dimen>
+    <dimen name="login_edit_text_size">14.0sp</dimen>
+    <dimen name="login_password_mar_top">23.0dp</dimen>
+    <dimen name="login_login_height">40dp</dimen>
+    <dimen name="login_login_mar_top">23dp</dimen>
+    <dimen name="login_login_width">119.0dp</dimen>
+    <dimen name="login_login_text_size">14.0sp</dimen>
+    <dimen name="regis_margintop">20.0dp</dimen>
+    <dimen name="regis_textsize">14.0sp</dimen>
+    <dimen name="regis_margincell">21.0dp</dimen>
+    <dimen name="myself_nologin_btn_width">119.0dp</dimen>
+    <dimen name="myself_nologin_btn_height">40.0dp</dimen>
+    <dimen name="homecell_title_size">14.0sp</dimen>
+    <dimen name="dp_160">160dp</dimen>
+</resources>

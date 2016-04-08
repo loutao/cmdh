@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context="lecho.lib.hellocharts.samples.PreviewLineChartActivity$PlaceholderFragment" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loading_page_1"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_marginTop="@dimen/loading_margin_top"
+            android:id="@+id/loading_imageview"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/loading"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textSize="@dimen/sp_16"
+            android:id="@+id/loading_text"
+            android:layout_below="@+id/loading_imageview"
+            android:layout_centerHorizontal="true"
+            android:text="图表加载中..."/>
+    </RelativeLayout>
+        <LinearLayout android:id="@+id/time_bar"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:layout_width="wrap_content"
+                android:id="@+id/year"
+                android:layout_height="wrap_content">
+
+                </Spinner>
+            <Spinner
+                android:layout_width="wrap_content"
+                android:id="@+id/month"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/queding"/>
+
+
+        </LinearLayout>
+        <lecho.lib.hellocharts.view.LineChartView
+            android:id="@+id/chart"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="3" >
+        </lecho.lib.hellocharts.view.LineChartView>
+
+        <View
+            android:layout_width="match_parent"
+            android:id="@+id/line"
+            android:layout_height="2dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@android:color/darker_gray" />
+
+        <lecho.lib.hellocharts.view.PreviewLineChartView
+            android:id="@+id/chart_preview"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+        </lecho.lib.hellocharts.view.PreviewLineChartView>
+
+        <GridView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chart_grid_view"
+            android:layout_marginTop="30dp"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"
+            android:numColumns="2">
+        </GridView>
+
+</LinearLayout>

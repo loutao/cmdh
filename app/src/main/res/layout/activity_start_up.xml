@@ -1,0 +1,45 @@
+<!--启动界面-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.njucm.cmdh.app.activitys.StartUpActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_startup"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:gravity="center|center"
+        android:background="@drawable/background_circle"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="-60dip"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:scaleType="centerInside"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/wordpress_logo"
+            android:src="@drawable/njucm"></ImageView>
+        <TextView
+            android:text="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:typeface="serif"
+            android:shadowDx="0"
+            android:shadowDy="2"
+            android:shadowRadius="1"
+            android:shadowColor="#FFFFFF"
+            android:textColor="#444444"
+            android:textSize="20dip"
+            android:id="@+id/versionNumber"
+            android:gravity="bottom"></TextView>
+    </LinearLayout>
+
+</RelativeLayout>

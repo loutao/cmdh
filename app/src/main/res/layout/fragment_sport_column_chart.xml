@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/sport_chart_padding_top"
+    android:paddingLeft="@dimen/sport_chart_padding_left"
+    android:paddingRight="@dimen/sport_chart_padding_right"
+    tools:context="lecho.lib.hellocharts.samples.ColumnChartActivity"
+    tools:ignore="MergeRootFrame">
+    <lecho.lib.hellocharts.view.ColumnChartView
+        android:id="@+id/sport_column_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        >
+    </lecho.lib.hellocharts.view.ColumnChartView>
+</RelativeLayout>

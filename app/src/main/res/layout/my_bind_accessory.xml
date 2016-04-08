@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:id="@+id/cur_accessory_options"
+    android:background="@drawable/window_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        style="@style/top">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:id="@+id/return_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent">
+
+            <ImageView
+                android:id="@id/btn_close"
+                style="@style/ReturnBack_ImageButton_Style" />
+
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="@color/title"
+                android:id="@+id/close_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/btn_close"
+                android:layout_centerVertical="true" />
+        </LinearLayout>
+
+        <TextView
+            android:textSize="20.0sp"
+            android:textColor="@color/title"
+            android:id="@+id/cur_accessory_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bind_accessories"
+            android:layout_centerInParent="true" />
+
+        <Button
+            android:id="@+id/bind_accessory_over"
+            android:visibility="gone"
+            android:text="@string/complete"
+            style="@style/Submit_Button_Style" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/linearLayoutMain"
+        android:clickable="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:id="@+id/setting_reminder"
+            android:background="@drawable/listitem_round"
+            android:visibility="gone"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginRight="20.0dip"
+            style="@style/setting_item">
+
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="@color/codoon_black_color"
+                android:duplicateParentState="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:text="@string/setting_title_sportprompt"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true" />
+
+            <ImageView
+                android:id="@+id/img_arrow"
+                android:duplicateParentState="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20.0dip"
+                android:src="@drawable/arrow"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/setting_smartclock"
+            android:background="@drawable/listitem_round"
+            android:visibility="gone"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginRight="20.0dip"
+            style="@style/setting_item">
+
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="@color/codoon_black_color"
+                android:duplicateParentState="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:text="@string/setting_title_alarmclock"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true" />
+
+            <ImageView
+                android:id="@id/img_arrow"
+                android:duplicateParentState="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20.0dip"
+                android:src="@drawable/arrow"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/setting_target"
+            android:background="@drawable/listitem_round"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginRight="20.0dip"
+            style="@style/setting_item">
+
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="@color/codoon_black_color"
+                android:duplicateParentState="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:text="@string/target_setting"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true" />
+
+            <ImageView
+                android:id="@id/img_arrow"
+                android:duplicateParentState="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20.0dip"
+                android:src="@drawable/arrow"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/device_info"
+            android:background="@drawable/listitem_round"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginRight="20.0dip"
+            style="@style/setting_item">
+
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="@color/codoon_black_color"
+                android:id="@+id/txt_device_info"
+                android:duplicateParentState="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:text="@string/device_info"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true" />
+
+            <ImageView
+                android:id="@id/img_arrow"
+                android:duplicateParentState="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20.0dip"
+                android:src="@drawable/arrow"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+
+            <ImageView
+                android:id="@+id/accessory_unread"
+                android:tag="ball"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:src="@drawable/icon_new"
+                android:layout_toRightOf="@id/txt_device_info" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/device_friend_turn"
+            android:background="@drawable/listitem_round"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginRight="20.0dip"
+            style="@style/setting_item">
+
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="@color/codoon_black_color"
+                android:id="@id/txt_device_info"
+                android:duplicateParentState="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:text="@string/bluetooth_band_friends_turn"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true" />
+
+            <!--  <com.codoon.gps.view.SlipSwitchView
+                  android:gravity="center"
+                  android:id="@+id/setting_friends_band"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginRight="20.0dip"
+                  android:includeFontPadding="false"
+                  android:layout_alignParentRight="true"
+                  android:layout_centerInParent="true" />-->
+
+            <ImageView
+                android:id="@id/accessory_unread"
+                android:tag="ball"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:src="@drawable/icon_new"
+                android:layout_toRightOf="@id/txt_device_info" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/device_fucation"
+            android:background="@drawable/listitem_round"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginRight="20.0dip"
+            style="@style/setting_item">
+
+            <TextView
+                android:textSize="20.0sp"
+                android:textColor="@color/codoon_black_color"
+                android:id="@id/txt_device_info"
+                android:duplicateParentState="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:text="@string/accessory_funcation_des"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true" />
+
+            <ImageView
+                android:id="@id/img_arrow"
+                android:duplicateParentState="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20.0dip"
+                android:src="@drawable/arrow"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+
+            <ImageView
+                android:id="@id/accessory_unread"
+                android:tag="ball"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8.0dip"
+                android:src="@drawable/icon_new"
+                android:layout_toRightOf="@id/txt_device_info" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_check_health_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:textColor="@color/grey_8e"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginTop="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:text="@string/check_health_data"/>
+    </LinearLayout>
+</LinearLayout>

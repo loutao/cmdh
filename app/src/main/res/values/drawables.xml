@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="blue">#ff2a00ff</item>
+    <item type="drawable" name="codoon_black">#ff333333</item>
+    <item type="drawable" name="codoon_deepdarkgray">#ff4c5f4c</item>
+    <item type="drawable" name="codoon_deeporange">#ffe52a2a</item>
+    <item type="drawable" name="codoon_gray">#ff999999</item>
+    <item type="drawable" name="codoon_green">#ff6cbb52</item>
+    <item type="drawable" name="codoon_lightblack">#ff353535</item>
+    <item type="drawable" name="codoon_orange">#fff19e00</item>
+    <item type="drawable" name="codoon_white">#ffffffff</item>
+    <item type="drawable" name="codooon_transparent">#00000000</item>
+    <item type="drawable" name="darkgray">#ff999999</item>
+    <item type="drawable" name="deepdarkgray">#ff383838</item>
+    <item type="drawable" name="gray_line">#ffd0d0d0</item>
+    <item type="drawable" name="green">#ff709e18</item>
+    <item type="drawable" name="half_translucent_background">#80000000</item>
+    <item type="drawable" name="orange">#ffeea415</item>
+    <item type="drawable" name="red">#ffeb2626</item>
+    <item type="drawable" name="translucent">#00000000</item>
+    <item type="drawable" name="translucent_background">#d0000000</item>
+    <item type="drawable" name="white">#ffffffff</item>
+    <item type="drawable" name="window_background">#fff0f0f0</item>
+</resources>

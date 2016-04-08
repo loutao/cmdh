@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="androidbootstrap-1.1.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.beardedhen/androidbootstrap/1.1.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.beardedhen/androidbootstrap/1.1.0/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.beardedhen/androidbootstrap/1.1.0/8a1c0d6aac814e827a40f9966382d8cdf849f4dc/androidbootstrap-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

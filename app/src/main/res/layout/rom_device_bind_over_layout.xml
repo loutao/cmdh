@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/window_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:gravity="right"
+        style="@style/top">
+
+        <Button
+            android:id="@id/btn_close"
+            android:text="@string/complete"
+            style="@style/Submit_Button_Style" />
+    </RelativeLayout>
+
+    <TextView
+        android:textSize="21.0sp"
+        android:textColor="@color/codoon_black"
+        android:gravity="center_horizontal"
+        android:id="@+id/device_bind_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30.0dip"
+        android:text="@string/bind_success" />
+
+    <TextView
+        android:textSize="16.0sp"
+        android:textColor="@color/codoon_black"
+        android:gravity="center_horizontal"
+        android:id="@+id/device_bind_des"
+        android:padding="20.0dip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30.0dip"
+        android:text="@string/rom_device_des"
+        android:minLines="5" />
+
+    <Button
+        android:textSize="19.0sp"
+        android:textColor="@color/white"
+        android:id="@+id/go_upgrade"
+        android:background="@drawable/group_selector_button"
+        android:layout_width="fill_parent"
+        android:layout_height="60.0dip"
+        android:layout_margin="20.0dip"
+        android:text="@string/smart_device_upgrade" />
+</LinearLayout>

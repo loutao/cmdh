@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.njucm.cmdh.app.fragments.ConsIdenty.PhysiqueTest">
+
+    <TextView
+        android:id="@+id/header_word"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:gravity="left"
+        android:textSize="16sp"
+        android:text="请根据近一年的体验和感觉回答以下问题：" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_below="@id/header_word"
+        android:id="@+id/tv_considentyline_height"
+        android:layout_height="@dimen/tv_considentyline_height"
+        android:background="@color/light_grey" />
+    <!--<LinearLayout
+        android:id="@+id/score"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/header_word"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        >
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="0,1,2,3,4"
+            >
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/first"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:background="@drawable/border"
+                    android:text="@string/chooseone"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:id="@+id/two"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:background="@drawable/border"
+                    android:text="@string/choosetwo"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:id="@+id/three"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:background="@drawable/border"
+                    android:text="@string/choosethree"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:id="@+id/four"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+
+                    android:background="@drawable/border"
+                    android:text="@string/choosefour"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:id="@+id/five"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:background="@drawable/border"
+                    android:text="@string/choosefive"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>-->
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:layout_below="@id/tv_considentyline_height"
+        android:layout_above="@+id/submit"
+        android:divider="@color/light_grey"
+
+        android:dividerHeight="2px"></ListView>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/submit_button"
+        android:text="@string/submit"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

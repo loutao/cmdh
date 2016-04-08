@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/in.srain.cube/ultra-ptr/1.0.8/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="da796003fda553d352f6d07eeabca97b80a38f0b">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-e1dc9612a3e4cf08d9aa909c057fd7019fa18e22.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/com.norbsoft.typefacehelper/library/0.9.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0c8912a9df9a58bc70e24d750aa9fc4cea2d52e6">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-35cd1f4d7da147dac49e533cc64ac903fd9f8881.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/com.ikimuhendis/ldrawer/0.1/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d3bec8d72ee2aa86e69f66375c31f2161b7bb324">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-3bcdcdbeb393a43c02c527c10a25400bf6b40744.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/com.oguzdev/CircularFloatingActionMenu/1.0.2/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="607d961caf1a59b6e782724654c1f3229e036c20">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-eca44bf72213ac83f4a3af0d402e996be2c612bb.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-96c9cd8df2226b32fa710f816cbd9f5ffbff1ddd.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/libs/asmack.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9b60b3e527fa85cd1b19312a7c340e4a3053fea1">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/asmack-320f9a3816ff9a813d60633c0b564d6c8dd0a2ce.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/.gradle/caches/modules-2/files-2.1/de.greenrobot/greendao/1.3.7/dda08161d004c4df96938da6909f1c2b96cd33c8/greendao-1.3.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dda08161d004c4df96938da6909f1c2b96cd33c8">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/greendao-1.3.7-8bacbc757c7e494684bfe27eac04e7713b367201.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.1.0/63735f48b82bcd24cdd33821342428252eb1ca5a/butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0-20180771bdb7c7048a177aef9bcfa77973a179f9.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/cn.trinea.android.common/trinea-android-common/4.2.15/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b93ac952ea9e308e5bdd789c88c9eb8dc92054e6">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-4178586be01fe470642600c6a96974a14812b3e9.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/cmdh_lxtf/slideMenu_Library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="58bdd3d75a62e538db279ae639a8d9420dc9688f">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-d2a8efa69fb08865070cd14fc5e525b564916da5.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/com.github.eluleci/flatui/3.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1089efa4a24767294278997764bea2fda31ccca">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-f3caacab7a57a1e7f3edb8370a4e178de6c7e9a9.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.0.0/afe8399d352713b66e597e9670c741d1e60ae923/okhttp-urlconnection-2.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="afe8399d352713b66e597e9670c741d1e60ae923">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-2.0.0-6aaea9371ec145af454353f0bed534d3fac457c0.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/cmdh_lxtf/slideDateTimePicker/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="df6ce718859da638eb193b2fb36cc2541266fdcc">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-48eac508f16a786d6fa140587ba1c2686cc68d3f.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.0/2534c458682c73f5b9871131ab3098d3f987ca3/okio-1.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="02534c458682c73f5b9871131ab3098d3f987ca3">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/okio-1.0.0-6bb12217dcbc7841ff72410427db4c2f63d8d0a9.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit-mock/1.9.0/ce012d9c8bcbe9f4f2d3f29254ce9d4fda205230/retrofit-mock-1.9.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ce012d9c8bcbe9f4f2d3f29254ce9d4fda205230">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/retrofit-mock-1.9.0-72a56dae1d215915316b5b7867511895934939c7.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/.gradle/caches/modules-2/files-2.1/in.srain.cube/clog/1.0.2/4b857e5d62a7243e74fd0307639fff5a54f8f030/clog-1.0.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b857e5d62a7243e74fd0307639fff5a54f8f030">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/clog-1.0.2-962065e879db6c45d3575cd7a10aaa05604113b4.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/in.srain.cube/cube-sdk/1.0.44/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ab3e30bc50e6b7f859b4971bfc897cd107a7b6c5">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-c14e817a052811cc07bfc61d631df8bcfec5f98b.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/.gradle/caches/modules-2/files-2.1/cn.trinea.android.view.autoscrollviewpager/android-auto-scroll-view-pager/1.1.2/8ad9237a8b0965696ea32ca9c1de173e082eaad4/android-auto-scroll-view-pager-1.1.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8ad9237a8b0965696ea32ca9c1de173e082eaad4">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/android-auto-scroll-view-pager-1.1.2-f04286d891ed93516eca83227d9b1f1cea527ce1.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.0.0/4c8d1536dba3812cc1592090dc20c47a4ed3c35e/okhttp-2.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c8d1536dba3812cc1592090dc20c47a4ed3c35e">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/okhttp-2.0.0-61129237280cdbaaf22e30524b307fcf44a3b90b.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/com.github.johnkil.android-robototextview/robototextview/2.2.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7a79e95d6b7424b7a9671c1383ce0bf9da83cce4">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-e41ea9a56e66075f045863bb16330205c9d0fd78.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/libs/GoogleAdMobAdsSdk-6.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6262c554ef5744538d526465aa73704810705734">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/GoogleAdMobAdsSdk-6.4.1-99d9b3a45f6da61069d35e10e46dfa58139b84b4.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.1.4/76b956e45e19e4e081a9c52a68a3c078e3b2cf17/jackson-annotations-2.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="76b956e45e19e4e081a9c52a68a3c078e3b2cf17">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.1.4-d16780a26b1b137efcd79f4b12eba2c4bd89ff22.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/gson-2.3.1-584e20bdab908dcbe8aa224f00bb3020936f4f25.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/cmdh_lxtf/viewPagerIndicator_Library/unspecified/libs/support4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="afe677b52cef533ed661aed2cc25dfc8076362a7">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/support4-32934d4a5efef37e1f128d984586d0f5cd223317.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.CR2/777d153d3785f9a2af379ecd39dde5273c3ae853/validation-api-1.1.0.CR2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="777d153d3785f9a2af379ecd39dde5273c3ae853">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/validation-api-1.1.0.CR2-e66af085e72750a25bb7099906f893f9b6d29f09.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/libs/libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e887c6c9b31b39a39b0eaba981448b78902ea813">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/libGoogleAnalyticsServices-c2f175a624dd58600e30b87861f7d62c2a2d6174.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.1.4/61d1e5aaf474462b0c9bfef8aeb6a7205bd56a90/jackson-databind-2.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="61d1e5aaf474462b0c9bfef8aeb6a7205bd56a90">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/jackson-databind-2.1.4-53c8a40c37e963087dc6ad6790354ba367bd8e95.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/com.beardedhen/androidbootstrap/1.1.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="99d047d8e4c7b63b6566867bf00fcbdb8c306c8e">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-d59544759e4cd000ed8a9c2c63907bb3fa6da33b.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/.gradle/caches/modules-2/files-2.1/com.github.frankiesardo/auto-parcel/0.3/b68911fc1bd0419e5a19c2d3cba9d772f8352d67/auto-parcel-0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b68911fc1bd0419e5a19c2d3cba9d772f8352d67">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/auto-parcel-0.3-b26a25219dcb7264f96107889a83a7b7a5d9d563.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/net.simonvt.menudrawer/menudrawer/3.0.6/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6c43e8970e14e22ed8ea6bee207b27829422d516">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-43dccfa7403ab3ac2aeda32d995a99159d9d2060.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/com.github.lecho/hellocharts-library/1.5.3/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="31feb61a81927b6f873d2eb562e12e2487199c01">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-be78ed9b8a29681064e86337b711050bbb12b561.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.4/8896e10f8b07918b60c835b45a05507fa213e84/jackson-core-2.1.4.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="08896e10f8b07918b60c835b45a05507fa213e84">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/jackson-core-2.1.4-88d06bbd03f60bcc8d2fd22a64ce9cb8de012e73.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-e2d8ab3d6a33dfd29b65c4c6191a0c613ae2952b.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/cmdh_lxtf/DeviceService/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5f21aeef16a4ea84a2c38e61329ebc1660dbf3c5">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-6174839980d3d782cdd16f2e25ea8def0877feeb.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/cmdh_lxtf/viewPagerIndicator_Library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8a9e3a330afe65ba59f858ef3102acf24b274b9b">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-8d62e543a54c2d07d518e9ceba344a6f0c22aaa1.jar" />
+    </item>
+    <item
+        jar="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/exploded-aar/cmdh_lxtf/library/unspecified/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="00dde9ad0c8de6855a32fd3cde804f6486ba2c42">
+        <dex dex="/home/mesogene/AndroidStudioProjects/cmdh_lxtf/app/build/intermediates/pre-dexed/debug/classes-174a267feb8d77bf670ef91d20e5af78adefcf34.jar" />
+    </item>
+
+</items>

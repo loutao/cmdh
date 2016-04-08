@@ -1,0 +1,398 @@
+[
+    {
+        "identifyissueid": 1,
+        "temp_physiqueinfoid": 1,
+        "identifyissuecontent": "您精力充沛吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 2,
+        "temp_physiqueinfoid": 1,
+        "identifyissuecontent": "您容易疲乏吗?*",
+        "identifyissueremarks": "（带*号的逆向计分，即1→5，2→4，3→3，4→2，5→1）"
+    },
+    {
+        "identifyissueid": 3,
+        "temp_physiqueinfoid": 1,
+        "identifyissuecontent": "您说话声音低弱无力吗?*",
+        "identifyissueremarks": "（带*号的逆向计分，即1→5，2→4，3→3，4→2，5→1）"
+    },
+    {
+        "identifyissueid": 4,
+        "temp_physiqueinfoid": 1,
+        "identifyissuecontent": "您感到闷闷不乐、情绪低沉吗?*",
+        "identifyissueremarks": "（带*号的逆向计分，即1→5，2→4，3→3，4→2，5→1）"
+    },
+    {
+        "identifyissueid": 5,
+        "temp_physiqueinfoid": 1,
+        "identifyissuecontent": "您比一般人耐受不了寒冷吗?*",
+        "identifyissueremarks": "（冬天的寒冷，夏天的冷空调、电扇等）（带*号的逆向计分，即1→5，2→4，3→3，4→2，5→1）"
+    },
+    {
+        "identifyissueid": 6,
+        "temp_physiqueinfoid": 1,
+        "identifyissuecontent": "您能适应外界自然和社会环境的变化吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 7,
+        "temp_physiqueinfoid": 1,
+        "identifyissuecontent": "您容易失眠吗?*",
+        "identifyissueremarks": "（带*号的逆向计分，即1→5，2→4，3→3，4→2，5→1）"
+    },
+    {
+        "identifyissueid": 8,
+        "temp_physiqueinfoid": 1,
+        "identifyissuecontent": "您容易忘事吗?*",
+        "identifyissueremarks": "（健忘）（带*号的逆向计分，即1→5，2→4，3→3，4→2，5→1）"
+    },
+    {
+        "identifyissueid": 9,
+        "temp_physiqueinfoid": 2,
+        "identifyissuecontent": "您手脚发凉吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 10,
+        "temp_physiqueinfoid": 2,
+        "identifyissuecontent": "您胃脘部、背部或腰膝部怕冷吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 11,
+        "temp_physiqueinfoid": 2,
+        "identifyissuecontent": "您感到怕冷、衣服比别人穿得多吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 12,
+        "temp_physiqueinfoid": 2,
+        "identifyissuecontent": "您冬天更怕冷，夏天不喜欢吹电扇、空调吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 13,
+        "temp_physiqueinfoid": 2,
+        "identifyissuecontent": "您比别人容易患感冒吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 14,
+        "temp_physiqueinfoid": 2,
+        "identifyissuecontent": "您吃(喝)凉的东西会感到不舒服或怕吃(喝)凉的吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 15,
+        "temp_physiqueinfoid": 2,
+        "identifyissuecontent": "您受凉或吃(喝)凉的东西后，容易腹泻、拉肚子吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 16,
+        "temp_physiqueinfoid": 3,
+        "identifyissuecontent": "您感到手脚心发热吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 17,
+        "temp_physiqueinfoid": 3,
+        "identifyissuecontent": "您感觉身体、脸上发热吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 18,
+        "temp_physiqueinfoid": 3,
+        "identifyissuecontent": "您皮肤或口唇干吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 19,
+        "temp_physiqueinfoid": 3,
+        "identifyissuecontent": "您口唇的颜色比一般人红吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 20,
+        "temp_physiqueinfoid": 3,
+        "identifyissuecontent": "您容易便秘或大便干燥吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 21,
+        "temp_physiqueinfoid": 3,
+        "identifyissuecontent": "您面部两颧潮红或偏红吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 22,
+        "temp_physiqueinfoid": 3,
+        "identifyissuecontent": "您感到眼睛干涩吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 23,
+        "temp_physiqueinfoid": 3,
+        "identifyissuecontent": "您感到口干咽燥、总想喝水吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 24,
+        "temp_physiqueinfoid": 4,
+        "identifyissuecontent": "您感到胸闷或腹部胀满吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 25,
+        "temp_physiqueinfoid": 4,
+        "identifyissuecontent": "您感到身体沉重不轻松或不爽快吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 26,
+        "temp_physiqueinfoid": 4,
+        "identifyissuecontent": "您腹部肥满松软吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 27,
+        "temp_physiqueinfoid": 4,
+        "identifyissuecontent": "您有额部油脂分泌多的现象吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 28,
+        "temp_physiqueinfoid": 4,
+        "identifyissuecontent": "您上眼睑比别人肿吗?",
+        "identifyissueremarks": "（上眼睑有轻微隆起的现象）"
+    },
+    {
+        "identifyissueid": 29,
+        "temp_physiqueinfoid": 4,
+        "identifyissuecontent": "您嘴里有黏黏的感觉吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 30,
+        "temp_physiqueinfoid": 4,
+        "identifyissuecontent": "您平时痰多，特别是感到咽喉部总有痰堵着吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 31,
+        "temp_physiqueinfoid": 4,
+        "identifyissuecontent": "您舌苔厚腻或有舌苔厚厚的感觉吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 32,
+        "temp_physiqueinfoid": 5,
+        "identifyissuecontent": "您面部或鼻部有油腻感或者油亮发光吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 33,
+        "temp_physiqueinfoid": 5,
+        "identifyissuecontent": "您脸上容易生痤疮或皮肤容易生疮疖吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 34,
+        "temp_physiqueinfoid": 5,
+        "identifyissuecontent": "您感到口苦或嘴里有异味吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 35,
+        "temp_physiqueinfoid": 5,
+        "identifyissuecontent": "您大便黏滞不爽、有解不尽的感觉吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 36,
+        "temp_physiqueinfoid": 5,
+        "identifyissuecontent": "您小便时尿道有发热感、尿色浓(深)吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 37,
+        "temp_physiqueinfoid": 5,
+        "identifyissuecontent": "您白带颜色发黄吗？(女性)/您的阴囊潮湿吗?(男性)",
+        "identifyissueremarks": "(按性别选择答案)"
+    },
+    {
+        "identifyissueid": 39,
+        "temp_physiqueinfoid": 6,
+        "identifyissuecontent": "您感到闷闷不乐、情绪低沉吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 40,
+        "temp_physiqueinfoid": 6,
+        "identifyissuecontent": "您精神紧张、焦虑不安吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 41,
+        "temp_physiqueinfoid": 6,
+        "identifyissuecontent": "您多愁善感、感情脆弱吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 42,
+        "temp_physiqueinfoid": 6,
+        "identifyissuecontent": "您容易感到害怕或受到惊吓吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 43,
+        "temp_physiqueinfoid": 6,
+        "identifyissuecontent": "您胁肋部或乳房胀痛吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 44,
+        "temp_physiqueinfoid": 6,
+        "identifyissuecontent": "您无缘无故叹气吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 45,
+        "temp_physiqueinfoid": 6,
+        "identifyissuecontent": "您咽喉部有异物感，且吐之不出、咽之不下吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 46,
+        "temp_physiqueinfoid": 7,
+        "identifyissuecontent": "您容易疲乏吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 47,
+        "temp_physiqueinfoid": 7,
+        "identifyissuecontent": "您容易气短吗?",
+        "identifyissueremarks": "（呼吸短促，接不上气）"
+    },
+    {
+        "identifyissueid": 48,
+        "temp_physiqueinfoid": 7,
+        "identifyissuecontent": "您容易心慌吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 49,
+        "temp_physiqueinfoid": 7,
+        "identifyissuecontent": "您容易头晕或站起时晕眩吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 50,
+        "temp_physiqueinfoid": 7,
+        "identifyissuecontent": "您比别人容易感冒吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 51,
+        "temp_physiqueinfoid": 7,
+        "identifyissuecontent": "您喜欢安静、懒得说话吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 52,
+        "temp_physiqueinfoid": 7,
+        "identifyissuecontent": "您说话声音低弱无力吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 53,
+        "temp_physiqueinfoid": 7,
+        "identifyissuecontent": "您活动量稍大就容易出虚汗吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 54,
+        "temp_physiqueinfoid": 8,
+        "identifyissuecontent": "您的皮肤在不知不觉中会出现青紫瘀斑吗?",
+        "identifyissueremarks": "（皮下出血）"
+    },
+    {
+        "identifyissueid": 55,
+        "temp_physiqueinfoid": 8,
+        "identifyissuecontent": "您的两颧部有细微血丝吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 56,
+        "temp_physiqueinfoid": 8,
+        "identifyissuecontent": "您身体上有哪里疼痛吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 57,
+        "temp_physiqueinfoid": 8,
+        "identifyissuecontent": "您面色晦黯或容易出现褐斑吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 58,
+        "temp_physiqueinfoid": 8,
+        "identifyissuecontent": "您会出现黑眼圈吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 59,
+        "temp_physiqueinfoid": 8,
+        "identifyissuecontent": "您容易忘事吗?",
+        "identifyissueremarks": "（健忘）"
+    },
+    {
+        "identifyissueid": 60,
+        "temp_physiqueinfoid": 8,
+        "identifyissuecontent": "您口唇颜色偏黯吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 61,
+        "temp_physiqueinfoid": 9,
+        "identifyissuecontent": "您没有感冒也会打喷嚏吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 62,
+        "temp_physiqueinfoid": 9,
+        "identifyissuecontent": "您没有感冒也会鼻塞、流鼻涕吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 63,
+        "temp_physiqueinfoid": 9,
+        "identifyissuecontent": "您有因季节变化、温度变化或异味等原因而咳喘的现象吗?",
+        "identifyissueremarks": ""
+    },
+    {
+        "identifyissueid": 64,
+        "temp_physiqueinfoid": 9,
+        "identifyissuecontent": "您容易过敏吗?",
+        "identifyissueremarks": "（药物、食物、气味、花粉、季节交替时、气候变化等）"
+    },
+    {
+        "identifyissueid": 65,
+        "temp_physiqueinfoid": 9,
+        "identifyissuecontent": "您的皮肤起荨麻疹吗?",
+        "identifyissueremarks": "（风团、风疹块、风疙瘩）"
+    },
+    {
+        "identifyissueid": 66,
+        "temp_physiqueinfoid": 9,
+        "identifyissuecontent": "您的皮肤因过敏出现过紫癜吗?",
+        "identifyissueremarks": "（紫红色瘀点、瘀斑）"
+    },
+    {
+        "identifyissueid": 67,
+        "temp_physiqueinfoid": 9,
+        "identifyissuecontent": "您的皮肤一抓就红，并出现抓痕吗？",
+        "identifyissueremarks": ""
+    }
+]

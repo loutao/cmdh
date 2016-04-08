@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.njucm.cmdh.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/bitbug_favicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activitys.MainActivity2"
+            android:icon="@drawable/mainicon"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.StartUpActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activitys.DetileResultActivity"
+            android:label="@string/title_activity_detile_result" />
+        <activity
+            android:name=".activitys.TestActivity"
+            android:label="@string/title_activity_test" />
+        <activity
+            android:name=".fragments.ConsIdenty.PhysiqueTest"
+            android:label="@string/title_activity_pinghezhi" />
+        <activity
+            android:name=".activitys.ConstitutionActivity"
+            android:label="@string/title_activity_constitution" />
+        <activity
+            android:name=".activitys.HealthSuggestionsActivity"
+            android:label="@string/title_activity_health_suggestions" />
+        <activity
+            android:name=".activitys.MyCollectionActivity"
+            android:label="@string/title_activity_my_collection" />
+        <activity
+            android:name=".activitys.HealthTendingActivity"
+            android:label="@string/title_activity_health_tending" />
+        <activity
+            android:name=".activitys.HealthWarningActivity"
+            android:label="@string/title_activity_health_warning" />
+        <activity
+            android:name=".fragments.ConsIdenty.PhysiqueIntroduce"
+            android:label="@string/title_activity_pinghezhi" />
+        <!--<activity-->
+            <!--android:name=".activitys.DataRecord"-->
+            <!--android:label="@string/title_activity_record" />-->
+        <activity
+            android:name=".fragments.ConsIdenty.DetectionResult"
+            android:label="@string/title_activity_result" />
+        <activity
+            android:name=".fragments.ConsIdenty.AllDetectionResult"
+            android:label="@string/title_activity_result" />
+
+        <service android:name=".utils.PopService" />
+        <service
+            android:name=".androidpn.NotificationService"
+            android:enabled="true"
+            android:label="NotificationService">
+            <intent-filter>
+                <action android:name="com.njucm.cmdh.app.androidpn.NotificationService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".fragments.ConsIdenty.AllIdentifyQuestion"
+            android:label="@string/all_question" />
+
+        <service android:name=".utils.PopService" />
+
+        <activity
+            android:name=".activitys.SportRecordEnteringActivity"
+           />
+        <activity
+            android:name=".activitys.SleepRecordEnterActivity"
+           />
+        <activity
+            android:name=".activitys.EatRecordEnterActivity"
+           />
+        <activity
+            android:name=".activitys.HealthSuggestionExpand"
+            android:logo="@drawable/ic_action_back"/>
+        <activity
+            android:name=".activitys.HealthSuggestionExpand2"
+            android:logo="@drawable/ic_action_back"/>
+        <!-- <activity -->
+        <!-- android:name=".activitys.CustomDialogAcivity" -->
+        <!-- android:label="@string/title_activity_custom_dialog_acivity" > -->
+        <!-- </activity> -->
+        <activity
+            android:name=".activitys.NoNetActivity"
+            android:label="@string/title_activity_no_net"/>
+        <activity
+            android:name=".activitys.ElementSelectActivity"
+            android:label="@string/title_activity_element_select"/>
+        <activity
+            android:name=".activitys.HabitActivity"
+            android:label="@string/title_activity_habit"/>
+        <activity
+            android:name=".activitys.codoon.RomdeviceBindSuccess"
+            android:label="@string/title_activity_romdevice_bind_success" />
+        <activity
+            android:name=".activitys.codoon.BindAccessorySuccess"
+            android:label="@string/title_activity_bind_accessory_success" />
+        <activity
+            android:name=".activitys.codoon.DownloadCodoonRomActivity"
+            android:label="@string/title_activity_download_codoon_rom" />
+        <activity
+            android:name=".activitys.codoon.FoundAccessoryActivity"
+            android:label="@string/title_activity_download_codoon_rom" />
+        <activity
+            android:name=".activitys.codoon.DiscoveryAccessoryActivity"
+            android:label="@string/title_activity_bind_accessory" />
+        <activity
+            android:name=".activitys.codoon.BindAccessoryActivity"
+            android:label="@string/title_activity_bind_accessory" />
+        <activity
+            android:name=".activitys.codoon.CurrentAccessoryActivity"
+            android:label="@string/title_activity_current_accessory"/>
+        <activity
+            android:name=".activitys.codoon.DeviceDataActivity"
+            android:label="@string/title_activity_device_data"/>
+        <activity android:name=".activitys.SettingActivity">
+
+        </activity>
+        <activity
+            android:name=".activitys.MainActivity"
+            android:label="@string/title_activity_main_activity2"/>
+        <activity
+            android:name=".activitys.user.UserLoginActivity"
+            android:label="@string/title_activity_login"/>
+        <activity
+            android:name=".activitys.user.RegistActivity"
+            android:label="@string/title_activity_regist"/>
+    </application>
+
+</manifest>

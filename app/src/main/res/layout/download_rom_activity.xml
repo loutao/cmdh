@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/window_background"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout style="@style/top">
+
+        <TextView
+            android:text="@string/download_rom"
+            style="@style/TitleStyle" />
+
+        <Button
+            android:textSize="18.0sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/btn_finish"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15.0dip"
+            android:text="@string/finish"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:textSize="22.0sp"
+                android:textColor="#ff333333"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:text="@string/download_rom_note" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dip">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="40.0dip"
+                        android:layout_height="40.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:src="@drawable/ic_fun" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/download_rom_fun"
+                            style="@style/text1_down_rom" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/download_rom_fun_text"
+                            style="@style/text2_down_rom" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dip">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="40.0dip"
+                        android:layout_height="40.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:src="@drawable/ic_specialty" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/download_rom_specialty"
+                            style="@style/text1_down_rom" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/download_rom_specialty_text"
+                            style="@style/text2_down_rom" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dip">
+
+                    <ImageView
+                        android:layout_gravity="center"
+                        android:layout_width="40.0dip"
+                        android:layout_height="40.0dip"
+                        android:layout_marginRight="10.0dip"
+                        android:src="@drawable/ic_social" />
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/download_rom_social"
+                            style="@style/text1_down_rom" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/download_rom_social_text"
+                            style="@style/text2_down_rom" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:textSize="18.0sp"
+                android:textColor="#ffffffff"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/btn_down_rom"
+                android:background="@drawable/btn_green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20.0dip"
+                android:text="@string/download_rom_btn_text" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

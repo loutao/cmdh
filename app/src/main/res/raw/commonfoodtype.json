@@ -1,0 +1,499 @@
+[
+    {
+        "commonfoodtypeid": 1,
+        "commonfoodtypename": "米类及其制品",
+        "commonfoodtypecode": 1,
+        "foodtypeexplain": "包含米类粥类、米浆类、米类加工制品",
+        "temp_foodwidecategoryid": 1
+    },
+    {
+        "commonfoodtypeid": 2,
+        "commonfoodtypename": "麦类及面粉类制品",
+        "commonfoodtypecode": 2,
+        "foodtypeexplain": "包含面包类糕点类、方便面类、其他麦类及面粉类制品",
+        "temp_foodwidecategoryid": 1
+    },
+    {
+        "commonfoodtypeid": 3,
+        "commonfoodtypename": "杂粮类及其制品",
+        "commonfoodtypecode": 3,
+        "foodtypeexplain": "包含杂粮类杂粮类加工制品",
+        "temp_foodwidecategoryid": 1
+    },
+    {
+        "commonfoodtypeid": 4,
+        "commonfoodtypename": "干豆类及其制品",
+        "commonfoodtypecode": 4,
+        "foodtypeexplain": "包含红豆绿豆类、红豆绿豆类加工制品、花生芝麻类、花生芝麻类加工制品、黄豆黑豆类、豆浆类、黄豆黑豆类加工制品",
+        "temp_foodwidecategoryid": 2
+    },
+    {
+        "commonfoodtypeid": 5,
+        "commonfoodtypename": "坚果类及其制品",
+        "commonfoodtypecode": 5,
+        "foodtypeexplain": "包含坚果类、坚果类加工制品",
+        "temp_foodwidecategoryid": 2
+    },
+    {
+        "commonfoodtypeid": 6,
+        "commonfoodtypename": "植物性油脂",
+        "commonfoodtypecode": 6,
+        "foodtypeexplain": "包含谷物油、果实油、种子油、干豆油、坚果油、植物性调合油、其他植物性油脂",
+        "temp_foodwidecategoryid": 3
+    },
+    {
+        "commonfoodtypeid": 7,
+        "commonfoodtypename": "动物性油脂",
+        "commonfoodtypecode": 7,
+        "foodtypeexplain": "包含家禽油脂、家畜油脂、动物性调合油、其他动物性油脂",
+        "temp_foodwidecategoryid": 3
+    },
+    {
+        "commonfoodtypeid": 8,
+        "commonfoodtypename": "其他油脂类",
+        "commonfoodtypecode": 8,
+        "foodtypeexplain": "包含其他油脂类",
+        "temp_foodwidecategoryid": 3
+    },
+    {
+        "commonfoodtypeid": 9,
+        "commonfoodtypename": "鸡类及其制品",
+        "commonfoodtypecode": 9,
+        "foodtypeexplain": "包含包含鸡肉、鸡肝、鸡胗、其他鸡内脏、鸡其他可食部、鸡肉加工制品",
+        "temp_foodwidecategoryid": 4
+    },
+    {
+        "commonfoodtypeid": 10,
+        "commonfoodtypename": "鸭类及其制品",
+        "commonfoodtypecode": 10,
+        "foodtypeexplain": "包含鸭肉、鸭肝、鸭胗、其他鸭内脏、鸭其他可食部位、鸭肉加工制品",
+        "temp_foodwidecategoryid": 4
+    },
+    {
+        "commonfoodtypeid": 11,
+        "commonfoodtypename": "鹅类及其制品",
+        "commonfoodtypecode": 11,
+        "foodtypeexplain": "包含鹅肉、鹅肝、鹅胗、其他鹅内脏、鹅其他可食部、鹅肉加工制品",
+        "temp_foodwidecategoryid": 4
+    },
+    {
+        "commonfoodtypeid": 12,
+        "commonfoodtypename": "其他家禽类及其制品",
+        "commonfoodtypecode": 12,
+        "foodtypeexplain": "包含其他家禽类肉类、其他家禽类肝、其他家禽类胗、其他家禽类内脏、其他家禽类之其他可、其他家禽类加工制品",
+        "temp_foodwidecategoryid": 4
+    },
+    {
+        "commonfoodtypeid": 13,
+        "commonfoodtypename": "猪肉类及其制品",
+        "commonfoodtypecode": 13,
+        "foodtypeexplain": "包含猪肉、猪肝、猪肾、其他猪内脏、猪其他可食部、猪肉加工制品",
+        "temp_foodwidecategoryid": 5
+    },
+    {
+        "commonfoodtypeid": 14,
+        "commonfoodtypename": "牛肉类及其制品",
+        "commonfoodtypecode": 14,
+        "foodtypeexplain": "包含牛肉、牛肝、牛肾、其他牛内脏、牛其他可食部、牛肉加工制品",
+        "temp_foodwidecategoryid": 5
+    },
+    {
+        "commonfoodtypeid": 15,
+        "commonfoodtypename": "羊肉类及其制品",
+        "commonfoodtypecode": 15,
+        "foodtypeexplain": "包含羊肉、羊肝、羊肾、其他羊内脏、羊其他可食部、羊肉加工制品",
+        "temp_foodwidecategoryid": 5
+    },
+    {
+        "commonfoodtypeid": 16,
+        "commonfoodtypename": "其他家畜类及其制品",
+        "commonfoodtypecode": 16,
+        "foodtypeexplain": "包含其他家畜类肉品、其他家畜类肝、其他家畜类肾、其他家畜类之其他内、其他家畜类之其他可、其他家畜类加工制品",
+        "temp_foodwidecategoryid": 5
+    },
+    {
+        "commonfoodtypeid": 17,
+        "commonfoodtypename": "鱼类及其制品",
+        "commonfoodtypecode": 17,
+        "foodtypeexplain": "包含淡水鱼类、咸水鱼类(包括半淡-咸水类)、鱼内脏类、鱼类加工制品",
+        "temp_foodwidecategoryid": 6
+    },
+    {
+        "commonfoodtypeid": 18,
+        "commonfoodtypename": "其他水海产类及其制品",
+        "commonfoodtypecode": 18,
+        "foodtypeexplain": "包含甲壳类、甲壳类加工制品、贝类、贝类加工制品、头足类、头足类内脏、头足类加工制品、其他新鲜水产品、其他水产动物加工制品",
+        "temp_foodwidecategoryid": 6
+    },
+    {
+        "commonfoodtypeid": 19,
+        "commonfoodtypename": "蛋类及其制品",
+        "commonfoodtypecode": 19,
+        "foodtypeexplain": "包含鸡蛋、鸭蛋、鹌鹑蛋、其他家禽蛋类、水产动物蛋类、蛋类加工品",
+        "temp_foodwidecategoryid": 7
+    },
+    {
+        "commonfoodtypeid": 20,
+        "commonfoodtypename": "液态乳类",
+        "commonfoodtypecode": 20,
+        "foodtypeexplain": "包含全脂牛乳、低脂牛乳、脱脂牛乳、保久、调味牛乳、羊乳、调味羊乳、发酵乳、炼乳、其他液态乳类",
+        "temp_foodwidecategoryid": 8
+    },
+    {
+        "commonfoodtypeid": 21,
+        "commonfoodtypename": "粉状或固状乳类",
+        "commonfoodtypecode": 21,
+        "foodtypeexplain": "包含全脂乳粉、低脂乳粉、脱脂乳粉、羊奶乳粉、调味乳粉、儿童乳粉、干酪、其他粉状或固状乳类",
+        "temp_foodwidecategoryid": 8
+    },
+    {
+        "commonfoodtypeid": 22,
+        "commonfoodtypename": "大浆果类及其制品",
+        "commonfoodtypecode": 22,
+        "foodtypeexplain": "包含大浆果类、大浆果类加工制品",
+        "temp_foodwidecategoryid": 9
+    },
+    {
+        "commonfoodtypeid": 23,
+        "commonfoodtypename": "小浆果类及其制品",
+        "commonfoodtypecode": 23,
+        "foodtypeexplain": "包含小浆果类、小浆果类加工制品",
+        "temp_foodwidecategoryid": 9
+    },
+    {
+        "commonfoodtypeid": 24,
+        "commonfoodtypename": "梨果类及其制品",
+        "commonfoodtypecode": 24,
+        "foodtypeexplain": "包含梨果类、梨果类加工制品",
+        "temp_foodwidecategoryid": 9
+    },
+    {
+        "commonfoodtypeid": 25,
+        "commonfoodtypename": "核果类及其制品",
+        "commonfoodtypecode": 25,
+        "foodtypeexplain": "包含核果类、核果类加工制品",
+        "temp_foodwidecategoryid": 9
+    },
+    {
+        "commonfoodtypeid": 26,
+        "commonfoodtypename": "瓜果类及其制品",
+        "commonfoodtypecode": 26,
+        "foodtypeexplain": "包含瓜果类、瓜果类加工制品",
+        "temp_foodwidecategoryid": 9
+    },
+    {
+        "commonfoodtypeid": 27,
+        "commonfoodtypename": "柑桔类及其制品",
+        "commonfoodtypecode": 27,
+        "foodtypeexplain": "包含柑桔类、柑桔类加工制品",
+        "temp_foodwidecategoryid": 9
+    },
+    {
+        "commonfoodtypeid": 28,
+        "commonfoodtypename": "甘蔗类及其制品",
+        "commonfoodtypecode": 28,
+        "foodtypeexplain": "包含甘蔗类",
+        "temp_foodwidecategoryid": 9
+    },
+    {
+        "commonfoodtypeid": 29,
+        "commonfoodtypename": "包叶菜类及其制品",
+        "commonfoodtypecode": 29,
+        "foodtypeexplain": "包含包叶菜类、包叶菜类加工制品",
+        "temp_foodwidecategoryid": 10
+    },
+    {
+        "commonfoodtypeid": 30,
+        "commonfoodtypename": "小叶菜类及其制品",
+        "commonfoodtypecode": 30,
+        "foodtypeexplain": "包含小叶菜类、小叶菜类加工制品",
+        "temp_foodwidecategoryid": 10
+    },
+    {
+        "commonfoodtypeid": 31,
+        "commonfoodtypename": "果菜类及其制品",
+        "commonfoodtypecode": 31,
+        "foodtypeexplain": "包含果菜类、果菜类加工制品",
+        "temp_foodwidecategoryid": 10
+    },
+    {
+        "commonfoodtypeid": 32,
+        "commonfoodtypename": "豆菜类及其制品",
+        "commonfoodtypecode": 32,
+        "foodtypeexplain": "包含豆菜类、淀粉豆菜类、豆菜类加工制品",
+        "temp_foodwidecategoryid": 10
+    },
+    {
+        "commonfoodtypeid": 33,
+        "commonfoodtypename": "瓜菜类及其制品",
+        "commonfoodtypecode": 33,
+        "foodtypeexplain": "包含瓜菜类、淀粉瓜菜类、瓜菜类加工制品",
+        "temp_foodwidecategoryid": 10
+    },
+    {
+        "commonfoodtypeid": 34,
+        "commonfoodtypename": "根菜类及其制品",
+        "commonfoodtypecode": 34,
+        "foodtypeexplain": "包含根菜类、根菜类加制品、淀粉根菜类、淀粉根菜类加工制品",
+        "temp_foodwidecategoryid": 10
+    },
+    {
+        "commonfoodtypeid": 35,
+        "commonfoodtypename": "蕈菇类及其制品",
+        "commonfoodtypecode": 35,
+        "foodtypeexplain": "包含蕈菇类、蕈菇类加工制品类",
+        "temp_foodwidecategoryid": 10
+    },
+    {
+        "commonfoodtypeid": 36,
+        "commonfoodtypename": "海产植物类及其制品",
+        "commonfoodtypecode": 36,
+        "foodtypeexplain": "包含海产植物类、海产植物类加工制品类",
+        "temp_foodwidecategoryid": 10
+    },
+    {
+        "commonfoodtypeid": 37,
+        "commonfoodtypename": "其他蔬菜类及其制品",
+        "commonfoodtypecode": 37,
+        "foodtypeexplain": "包含其他蔬菜类、其他蔬菜类加工制品",
+        "temp_foodwidecategoryid": 10
+    },
+    {
+        "commonfoodtypeid": 38,
+        "commonfoodtypename": "糖类",
+        "commonfoodtypecode": 38,
+        "foodtypeexplain": "包含糖、糖浆、蜂蜜、代糖",
+        "temp_foodwidecategoryid": 11
+    },
+    {
+        "commonfoodtypeid": 39,
+        "commonfoodtypename": "糖果及巧克力类",
+        "commonfoodtypecode": 39,
+        "foodtypeexplain": "包含糖果类、巧克力类",
+        "temp_foodwidecategoryid": 11
+    },
+    {
+        "commonfoodtypeid": 40,
+        "commonfoodtypename": "零食饼干类",
+        "commonfoodtypecode": 40,
+        "foodtypeexplain": "包含含馅饼干类、无馅饼干类、休闲食品类 、甜品类(糕点除外)",
+        "temp_foodwidecategoryid": 11
+    },
+    {
+        "commonfoodtypeid": 41,
+        "commonfoodtypename": "其他糖及零食类",
+        "commonfoodtypecode": 41,
+        "foodtypeexplain": "包含其他糖及零食类",
+        "temp_foodwidecategoryid": 11
+    },
+    {
+        "commonfoodtypeid": 42,
+        "commonfoodtypename": "碳酸饮料类",
+        "commonfoodtypecode": 42,
+        "foodtypeexplain": "包含碳酸饮料类",
+        "temp_foodwidecategoryid": 12
+    },
+    {
+        "commonfoodtypeid": 43,
+        "commonfoodtypename": "果蔬汁饮料",
+        "commonfoodtypecode": 43,
+        "foodtypeexplain": "包含新鲜纯果蔬汁、还原调制果汁、发酵果蔬汁及其饮料",
+        "temp_foodwidecategoryid": 12
+    },
+    {
+        "commonfoodtypeid": 44,
+        "commonfoodtypename": "以食品原料萃取而得之饮料",
+        "commonfoodtypecode": 44,
+        "foodtypeexplain": "包含可可或巧克力饮料类 (仅以少量巧克力调味者除外)、咖啡饮料类、茶叶饮料类、各式奶茶、鲜奶茶类",
+        "temp_foodwidecategoryid": 12
+    },
+    {
+        "commonfoodtypeid": 45,
+        "commonfoodtypename": "机能性饮料类",
+        "commonfoodtypecode": 45,
+        "foodtypeexplain": "包含机能性饮料类",
+        "temp_foodwidecategoryid": 12
+    },
+    {
+        "commonfoodtypeid": 46,
+        "commonfoodtypename": "乳酸饮料",
+        "commonfoodtypecode": 46,
+        "foodtypeexplain": "包含乳酸饮料",
+        "temp_foodwidecategoryid": 12
+    },
+    {
+        "commonfoodtypeid": 47,
+        "commonfoodtypename": "其他饮料类",
+        "commonfoodtypecode": 47,
+        "foodtypeexplain": "包含冰品类、花茶类、其他饮料类",
+        "temp_foodwidecategoryid": 12
+    },
+    {
+        "commonfoodtypeid": 48,
+        "commonfoodtypename": "饮用水",
+        "commonfoodtypecode": 48,
+        "foodtypeexplain": "包含市售包装水、其他饮用水",
+        "temp_foodwidecategoryid": 12
+    },
+    {
+        "commonfoodtypeid": 49,
+        "commonfoodtypename": "酿造酒类",
+        "commonfoodtypecode": 49,
+        "foodtypeexplain": "包含啤酒类、水果酿造酒类、谷类酿造酒类、其他酿造酒类",
+        "temp_foodwidecategoryid": 13
+    },
+    {
+        "commonfoodtypeid": 50,
+        "commonfoodtypename": "蒸馏酒类",
+        "commonfoodtypecode": 50,
+        "foodtypeexplain": "包含白兰地、威士忌、白酒、米酒、其他蒸馏酒",
+        "temp_foodwidecategoryid": 13
+    },
+    {
+        "commonfoodtypeid": 51,
+        "commonfoodtypename": "再制酒类",
+        "commonfoodtypecode": 51,
+        "foodtypeexplain": "包含药酒、其他再制酒",
+        "temp_foodwidecategoryid": 13
+    },
+    {
+        "commonfoodtypeid": 52,
+        "commonfoodtypename": "酒精性饮料",
+        "commonfoodtypecode": 52,
+        "foodtypeexplain": "包含酒精性饮料",
+        "temp_foodwidecategoryid": 13
+    },
+    {
+        "commonfoodtypeid": 53,
+        "commonfoodtypename": "盐类",
+        "commonfoodtypecode": 53,
+        "foodtypeexplain": "包含盐类",
+        "temp_foodwidecategoryid": 14
+    },
+    {
+        "commonfoodtypeid": 54,
+        "commonfoodtypename": "味精",
+        "commonfoodtypecode": 54,
+        "foodtypeexplain": "包含味精",
+        "temp_foodwidecategoryid": 14
+    },
+    {
+        "commonfoodtypeid": 55,
+        "commonfoodtypename": "酱油及酱类",
+        "commonfoodtypecode": 55,
+        "foodtypeexplain": "包含酱油类、酱油膏类、咸的调味酱、酸甜的调味酱、辣的调味酱、其他调味酱",
+        "temp_foodwidecategoryid": 14
+    },
+    {
+        "commonfoodtypeid": 56,
+        "commonfoodtypename": "醋类",
+        "commonfoodtypecode": 56,
+        "foodtypeexplain": "包含白醋、黑醋、其他醋类",
+        "temp_foodwidecategoryid": 14
+    },
+    {
+        "commonfoodtypeid": 57,
+        "commonfoodtypename": "香辛植物类",
+        "commonfoodtypecode": 57,
+        "foodtypeexplain": "包含白胡椒、黑胡椒、调理包类、其他香辛植物类",
+        "temp_foodwidecategoryid": 14
+    },
+    {
+        "commonfoodtypeid": 58,
+        "commonfoodtypename": "其他调味品",
+        "commonfoodtypecode": 58,
+        "foodtypeexplain": "包含其他调味料类",
+        "temp_foodwidecategoryid": 14
+    },
+    {
+        "commonfoodtypeid": 59,
+        "commonfoodtypename": "米类复合食品",
+        "commonfoodtypecode": 59,
+        "foodtypeexplain": "包含碗粿及萝卜糕类、炒饭油饭类、米制粿、米血、寿司饭团、肉圆、粥类复合食品、粽子类、麻糬类、含馅汤圆类、其他米类复合食品",
+        "temp_foodwidecategoryid": 15
+    },
+    {
+        "commonfoodtypeid": 60,
+        "commonfoodtypename": "麦类复合食品",
+        "commonfoodtypecode": 60,
+        "foodtypeexplain": "包含水饺馄饨类、包子煎包类、面包吐司类复合食品、中式糕饼类、抓饼蛋饼类、披萨汉堡类、羹类及面线糊等、调味馒头类、火锅饺类、蚵仔煎、车轮饼类、其他麦类复合食品",
+        "temp_foodwidecategoryid": 15
+    },
+    {
+        "commonfoodtypeid": 61,
+        "commonfoodtypename": "其他复合食品",
+        "commonfoodtypecode": 61,
+        "foodtypeexplain": "包含肉类+蔬菜类复合食品、其他复合食品",
+        "temp_foodwidecategoryid": 15
+    },
+    {
+        "commonfoodtypeid": 62,
+        "commonfoodtypename": "汤品类",
+        "commonfoodtypecode": 62,
+        "foodtypeexplain": "包含清汤、浓汤、含中药汤品、其他汤品",
+        "temp_foodwidecategoryid": 15
+    },
+    {
+        "commonfoodtypeid": 63,
+        "commonfoodtypename": "其他类",
+        "commonfoodtypecode": 63,
+        "foodtypeexplain": "包含常见食用中药材、其他类",
+        "temp_foodwidecategoryid": 15
+    },
+    {
+        "commonfoodtypeid": 64,
+        "commonfoodtypename": "三岁以下婴幼儿乳品",
+        "commonfoodtypecode": 64,
+        "foodtypeexplain": "包含母乳、婴幼儿乳粉、婴幼儿羊奶粉",
+        "temp_foodwidecategoryid": 16
+    },
+    {
+        "commonfoodtypeid": 65,
+        "commonfoodtypename": "婴幼儿副食品",
+        "commonfoodtypecode": 65,
+        "foodtypeexplain": "包含米粉米精、麦粉麦精",
+        "temp_foodwidecategoryid": 16
+    },
+    {
+        "commonfoodtypeid": 66,
+        "commonfoodtypename": "其他婴幼儿食品",
+        "commonfoodtypecode": 66,
+        "foodtypeexplain": "包含婴幼儿营养补充品、其他婴幼儿加工食品",
+        "temp_foodwidecategoryid": 16
+    },
+    {
+        "commonfoodtypeid": 67,
+        "commonfoodtypename": "胶囊状保健食品",
+        "commonfoodtypecode": 67,
+        "foodtypeexplain": "包含胶囊状保健食品-以植物类食品成分(草木本植物、藻类、菇蕈类)为主原料者、胶囊状保健食品-以动物类食品(微生物及其来源、水产动物、昆虫、禽畜类)成分为主原料者",
+        "temp_foodwidecategoryid": 17
+    },
+    {
+        "commonfoodtypeid": 68,
+        "commonfoodtypename": "锭状保健食品",
+        "commonfoodtypecode": 68,
+        "foodtypeexplain": "包含锭状保健食品-以植物类食品成分(草木本植物、藻类、菇蕈类)为主原料者、锭状保健食品-以动物类食品(微生物及其来源、水产动物、昆虫、禽畜类)成分为主原料者",
+        "temp_foodwidecategoryid": 17
+    },
+    {
+        "commonfoodtypeid": 69,
+        "commonfoodtypename": "液状保健食品",
+        "commonfoodtypecode": 69,
+        "foodtypeexplain": "包含液状保健食品-以植物类食品成分(草木本植物、藻类、菇蕈类)为主原料者、液状保健食品-以动物类食品(微生物及其来源、水产动物、昆虫、禽畜类)成分为主原料者",
+        "temp_foodwidecategoryid": 17
+    },
+    {
+        "commonfoodtypeid": 70,
+        "commonfoodtypename": "乳酸菌类粉状及锭状食品",
+        "commonfoodtypecode": 70,
+        "foodtypeexplain": "包含乳酸菌类粉状及锭状食品",
+        "temp_foodwidecategoryid": 17
+    },
+    {
+        "commonfoodtypeid": 71,
+        "commonfoodtypename": "其他固状营养补充剂",
+        "commonfoodtypecode": 71,
+        "foodtypeexplain": "包含固状营养补充剂、粉状营养补充剂、液状营养补充剂",
+        "temp_foodwidecategoryid": 17
+    }
+]

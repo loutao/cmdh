@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pagedheadlistview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ProgressBar
+        android:id="@+id/fragment_mainTab_item_progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/fragment_mainTab_item_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="加载完毕"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/knowledge_content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+   <!-- <com.njucm.cmdh.pageheadlistview.PagedHeadListView
+        android:id="@+id/pagedHeadListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        pagedheadlistview:headerHeight="@dimen/header_height"
+        pagedheadlistview:indicatorType="bottomAligned"
+        pagedheadlistview:disableVerticalTouchOnHeader="true" />-->
+    <!--<com.njucm.cmdh.pageheadlistview.PagedHeadListView
+        android:id="@+id/pagedHeadListView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        pagedheadlistview:headerHeight="@dimen/header_height"
+        pagedheadlistview:indicatorType="bottomAligned"
+        pagedheadlistview:disableVerticalTouchOnHeader="true" />-->
+
+</RelativeLayout><!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pagedheadlistview="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/knowledge_content_frame">--><!--<com.jorgecastilloprz.pagedheadlistview.PagedHeadListView
+        android:id="@+id/pagedHeadListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        pagedheadlistview:headerHeight="@dimen/header_height"
+        pagedheadlistview:indicatorType="topAligned"
+        pagedheadlistview:disableVerticalTouchOnHeader="true"
+        pagedheadlistview:indicatorBgColor="@color/material_green"
+        pagedheadlistview:indicatorColor="@color/material_light_green"/>--><!--<fragment
+        android:id="@+id/fragment1"
+        android:name="com.njucm.cmdh.app.fragments.FragmentOne"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />--><!--  <ProgressBar
+        android:id="@+id/fragment_mainTab_item_progressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/fragment_mainTab_item_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="加载完毕"
+        android:visibility="gone" />-->

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/healtnknol_list_item_kind"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/healtnknol__kind_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:text="123"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/healthknowl_kind_title_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@id/healtnknol__kind_title">
+
+        <ImageView
+            android:id="@+id/healtnknol_kind_image_one"
+            android:layout_width="@dimen/health_knowl_kind_image_width"
+            android:layout_weight="1"
+            android:layout_height="@dimen/health_knowl_kind_image_height"
+            android:src="@drawable/banner1" 
+            android:layout_marginRight="3dp"/>
+
+        <ImageView
+            android:id="@+id/healtnknol_kind_image_two"
+            android:layout_weight="1"
+            android:layout_width="@dimen/health_knowl_kind_image_width"
+            android:layout_height="@dimen/health_knowl_kind_image_height"
+            android:src="@drawable/banner2"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            />
+
+        <ImageView
+            android:id="@+id/healtnknol_kind_image_three"
+            android:layout_weight="1"
+            android:layout_width="@dimen/health_knowl_kind_image_width"
+            android:layout_height="@dimen/health_knowl_kind_image_height"
+            android:src="@drawable/banner3"
+            android:layout_marginLeft="3dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

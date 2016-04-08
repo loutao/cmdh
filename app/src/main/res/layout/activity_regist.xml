@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bootstrapbutton="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- 最上面部分开始 -->
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_or"
+        android:padding="8dp" >
+        &lt;!&ndash; 按钮slidingmenu &ndash;&gt;
+        &lt;!&ndash; 居中logo &ndash;&gt;
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/me_back_button_normal" />
+        &lt;!&ndash; 居中logo &ndash;&gt;
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:text="注册"
+            android:textSize="18dip"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>-->
+    <!--最上面部分结束  -->
+    <RelativeLayout
+        android:id="@+id/rl_register_success"
+        android:layout_marginTop="@dimen/dp_70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tv_congratu_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size_medium3"
+            android:text="@string/registersuccess"
+            android:textColor="@color/dark_blue"
+            android:gravity="center" />
+
+        <com.beardedhen.androidbootstrap.BootstrapButton
+            android:id="@+id/bbtn_login_now"
+            android:layout_below="@id/tv_congratu_register"
+            android:layout_marginTop="@dimen/btn_10_dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/login_now"
+            android:textSize="@dimen/text_size_small"
+            bootstrapbutton:bb_icon_right="fa-chevron-circle-right"
+            bootstrapbutton:bb_roundedCorners="true"
+            bootstrapbutton:bb_type="success">
+
+
+        </com.beardedhen.androidbootstrap.BootstrapButton>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_register_model"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/cloud_layout_card"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <EditText
+                android:id="@+id/edt_login"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:layout_marginLeft="@dimen/login_edit_mar_left"
+                android:layout_marginRight="@dimen/login_edit_mar_right"
+                android:layout_marginTop="@dimen/regis_margintop"
+                android:background="@drawable/edit_bg"
+                android:hint="@string/register_username"
+                android:paddingLeft="10.0dip"
+                android:singleLine="true"
+                android:textSize="@dimen/regis_textsize" />
+
+            <EditText
+                android:id="@+id/edt_pass"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:layout_marginLeft="@dimen/login_edit_mar_left"
+                android:layout_marginRight="@dimen/login_edit_mar_right"
+                android:layout_marginTop="@dimen/regis_margincell"
+                android:background="@drawable/edit_bg"
+                android:hint="@string/register_password"
+                android:paddingLeft="10.0dip"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textSize="@dimen/regis_textsize" />
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:layout_marginLeft="@dimen/login_edit_mar_left"
+                android:layout_marginRight="@dimen/login_edit_mar_right"
+                android:layout_marginTop="@dimen/regis_margincell"
+                android:background="@drawable/edit_bg"
+                android:hint="@string/register_email"
+                android:paddingLeft="10.0dip"
+                android:singleLine="true"
+                android:textSize="@dimen/regis_textsize" />
+
+            <EditText
+                android:id="@+id/edt_nickname"
+                android:layout_width="fill_parent"
+                android:layout_height="45.0dip"
+                android:layout_marginLeft="@dimen/login_edit_mar_left"
+                android:layout_marginRight="@dimen/login_edit_mar_right"
+                android:layout_marginTop="@dimen/regis_margincell"
+                android:background="@drawable/edit_bg"
+                android:hint="@string/register_nicheng"
+                android:paddingLeft="10.0dip"
+                android:singleLine="true"
+                android:textSize="@dimen/regis_textsize" />
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/login_login_height"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/regis_margincell">
+
+                <Button
+                    android:id="@+id/register_btnok"
+                    android:layout_width="@dimen/myself_nologin_btn_width"
+                    android:layout_height="@dimen/myself_nologin_btn_height"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/myself_btn_bg"
+                    android:gravity="center"
+                    android:text="@string/myself_nologin_registered"
+                    android:textColor="#ffe6312a"
+                    android:textSize="@dimen/homecell_title_size" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

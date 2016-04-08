@@ -1,0 +1,425 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context="lecho.lib.hellocharts.samples.ColumnChartActivity"
+    tools:ignore="MergeRootFrame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/graphbackgroundcolor"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:bootstrapicon="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <FrameLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></FrameLayout>
+
+            <RelativeLayout
+                android:id="@+id/re_sport_detail"
+                android:layout_below="@id/container"
+                android:layout_marginRight="@dimen/re_sport_detail_marginright"
+                android:layout_marginLeft="@dimen/re_sport_detail_marginleft"
+                android:paddingLeft="@dimen/re_sport_detail_paddingleft"
+                android:paddingRight="@dimen/re_sport_detail_paddingright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:id="@+id/re_graphbottombar"
+                    android:background="@drawable/sport_timechange_textview_border"
+                    android:paddingLeft="@dimen/padding_small"
+                    android:paddingBottom="@dimen/padding_small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_alignParentLeft="true"
+                        android:id="@+id/tv_sport_begin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:typeface="serif"
+                        android:textSize="@dimen/text_size_medium2"
+                        android:text="@string/app_name" />
+
+                    <LinearLayout
+                        android:layout_centerHorizontal="true"
+                        android:paddingTop="@dimen/padding_small"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <com.beardedhen.androidbootstrap.FontAwesomeText
+                            android:id="@+id/btv_leftarrow"
+                            android:gravity="center"
+                            android:layout_width="@dimen/datechangeview_width"
+                            android:layout_height="@dimen/datechangeview_height"
+                            android:textSize="@dimen/text_size_large"
+                            bootstrapicon:fa_icon="fa-chevron-left"
+                            android:textColor="@color/White_transparent_white_percent_40" />
+
+                        <TextView
+                            android:id="@+id/tv_datachange"
+                            android:paddingLeft="@dimen/tv_datepaddingarrowleft"
+                            android:paddingRight="@dimen/tv_datepaddingarrowright"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:typeface="serif"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/text_size_large"
+                            android:text="@string/app_name" />
+
+
+                        <com.beardedhen.androidbootstrap.FontAwesomeText
+                            android:id="@+id/btv_rightarrow"
+                            android:gravity="center"
+                            android:layout_width="@dimen/datechangeview_width"
+                            android:layout_height="@dimen/datechangeview_height"
+                            android:textSize="@dimen/text_size_large"
+                            bootstrapicon:fa_icon="fa-chevron-right"
+                            android:textColor="@color/White_transparent_white_percent_40" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_sport_finish"
+                        android:layout_alignParentRight="true"
+                        android:layout_width="wrap_content"
+                        android:textSize="@dimen/text_size_medium2"
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name" />
+                </RelativeLayout>
+
+                <TableLayout
+                    android:id="@+id/tbl_sportinfo_detail_title"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="@dimen/tb_sportdetile_margintop"
+                    android:layout_below="@id/re_graphbottombar"
+                    android:stretchColumns="1,3,5"
+                    android:background="@drawable/sport_sportdetail_table_border"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:paddingLeft="@dimen/padding_small"
+                        android:paddingRight="@dimen/padding_small"
+                        android:paddingTop="@dimen/padding_small0"
+                        android:paddingBottom="@dimen/padding_small0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+
+                        <TextView
+                            android:id="@+id/tv_stepnumber_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="@dimen/text_size_large"
+                            android:typeface="serif"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_size_micro_0"
+                            android:text="@string/tv_stepnumber_unit" />
+
+
+                        <TextView
+                            android:id="@+id/tv_movedistance_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:typeface="serif"
+                            android:textSize="@dimen/text_size_large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_size_micro_0"
+                            android:text="@string/tv_movedistance_unit" />
+
+
+                        <TextView
+                            android:id="@+id/tv_calorieconsume_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:typeface="serif"
+                            android:textSize="@dimen/text_size_large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_size_micro_0"
+                            android:text="@string/tv_calorieconsume_unit" />
+
+
+                    </TableRow>
+                </TableLayout>
+
+                <TableLayout
+                    android:layout_below="@id/tbl_sportinfo_detail_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:stretchColumns="2,6"
+                    android:layout_marginTop="@dimen/tb_sportdetile_margintitle"
+                    android:background="@drawable/sport_sportdetail_table_border">
+
+                    <TableRow
+                        android:paddingTop="@dimen/padding_small0"
+                        android:paddingBottom="@dimen/padding_small0"
+                        android:paddingLeft="@dimen/padding_small"
+                        android:paddingRight="@dimen/padding_small"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_size_small"
+                            android:text="@string/tv_longestactivetime_name" />
+
+                        <TextView
+                            android:id="@+id/tv_longestactivetime_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:typeface="serif"
+                            android:textSize="@dimen/text_size_large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_size_micro_0"
+                            android:text="@string/tv_time_unit_hour" />
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="@dimen/divider_height"
+                            android:background="@color/divider_color" />
+
+                        <TextView
+                            android:paddingLeft="@dimen/padding_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_size_small"
+                            android:text="@string/tv_longestidletime_name" />
+
+                        <TextView
+                            android:id="@+id/tv_longestidletime_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:typeface="serif"
+                            android:textSize="@dimen/text_size_large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_size_micro_0"
+                            android:text="@string/tv_time_unit_hour" />
+                    </TableRow>
+
+                    <TableRow
+                        android:paddingLeft="@dimen/padding_small"
+                        android:paddingRight="@dimen/padding_small"
+                        android:paddingTop="@dimen/padding_small0"
+                        android:paddingBottom="@dimen/padding_small0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_size_small"
+                            android:text="@string/tv_staticcalorieconsume_name" />
+
+                        <TextView
+                            android:id="@+id/tv_staticcolorieconsume_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:typeface="serif"
+                            android:textSize="@dimen/text_size_large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_size_micro_0"
+                            android:text="@string/tv_calorieconsume_unit" />
+
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="@dimen/divider_height"
+                            android:background="@color/divider_color" />
+
+                        <TextView
+                            android:paddingLeft="@dimen/padding_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_size_small"
+                            android:text="@string/tv_moveccalorieconsume_name" />
+
+                        <TextView
+                            android:id="@+id/tv_movecolorieconsume_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:typeface="serif"
+                            android:textSize="@dimen/text_size_large"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_size_micro_0"
+                            android:text="@string/tv_calorieconsume_unit" />
+                    </TableRow>
+
+                    <TableRow
+                        android:paddingLeft="@dimen/padding_small"
+                        android:paddingRight="@dimen/padding_small"
+                        android:paddingTop="@dimen/padding_small0"
+                        android:paddingBottom="@dimen/padding_small0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_size_small"
+                            android:text="@string/tv_crawedfloor_name" />
+                        <TextView
+                            android:id="@+id/tv_crawedfloor_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:typeface="serif"
+                            android:textSize="@dimen/text_size_large"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_size_micro_0"
+                            android:text="@string/tv_crawedfloor_unit" />
+                        <TextView
+                            android:layout_height="match_parent"
+                            android:layout_width="@dimen/divider_height"
+                            android:background="@color/divider_color" />
+                        <TextView
+                            android:paddingLeft="@dimen/padding_small"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_size_small"
+                            android:text="@string/tv_fallitems_name" />
+                        <TextView
+                            android:id="@+id/tv_fallitems_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:typeface="serif"
+                            android:textSize="@dimen/text_size_large"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/gray"
+                            android:textSize="@dimen/text_size_micro_0"
+                            android:text="@string/tv_fallitems_unit" />
+                    </TableRow>
+                </TableLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_below="@id/re_sport_detail"
+                android:paddingBottom="@dimen/padding_medium"
+                android:layout_marginTop="@dimen/general_table_distance"
+                android:layout_marginRight="@dimen/re_sport_analysis_marginright"
+                android:layout_marginLeft="@dimen/re_sport_analysis_marginleft"
+                android:paddingLeft="@dimen/re_sport_detail_paddingleft"
+                android:paddingRight="@dimen/re_sport_detail_paddingright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/sport_sportanalysis_re_border">
+                    <TextView
+                        android:layout_marginTop="@dimen/tb_sportanalysis_margintop"
+                        android:layout_marginLeft="@dimen/padding_small"
+                        android:id="@+id/tv_sport_analysis_title"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/text_size_medium2"
+                        android:text="@string/tv_sportanalyse_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginTop="@dimen/tb_sportanalysis_margintop"
+                        android:id="@+id/sport_analysis_title_divider"
+                        android:layout_below="@id/tv_sport_analysis_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/divider_height"
+                        android:background="@color/divider_color" />
+                    <TextView
+                        android:paddingBottom="@dimen/padding_small"
+                        android:paddingTop="@dimen/padding_small"
+                        android:layout_marginLeft="@dimen/padding_small"
+                        android:layout_marginRight="@dimen/padding_small"
+                        android:id="@+id/tv_sport_analysis_content"
+                        android:layout_below="@id/sport_analysis_title_divider"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_size_medium"
+                        android:text="@string/app_name" />
+                    <LinearLayout
+                        android:gravity="right"
+                        android:layout_below="@id/tv_sport_analysis_content"
+                        android:paddingRight="@dimen/toolicon_padd_right"
+                        android:paddingBottom="@dimen/padding_small"
+                        android:paddingTop="@dimen/padding_small"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.beardedhen.androidbootstrap.FontAwesomeText
+                            android:id="@+id/btv_thumbs_icon"
+                            android:gravity="center"
+                            android:layout_marginRight="@dimen/padding_small"
+                            android:layout_width="@dimen/toolicon_width"
+                            android:layout_height="@dimen/toolicon_height"
+                            android:textSize="@dimen/text_size_xlarge"
+                            bootstrapicon:fa_icon="fa-thumbs-o-up"
+                            android:textColor="@color/Black_transparent_black_percent_15" />
+                        <com.beardedhen.androidbootstrap.FontAwesomeText
+                            android:id="@+id/btv_share_icon"
+                            android:gravity="center"
+                            android:layout_width="@dimen/toolicon_width"
+                            android:layout_height="@dimen/toolicon_height"
+                            android:textSize="@dimen/text_size_xlarge"
+                            bootstrapicon:fa_icon="fa-share-alt"
+                            android:textColor="@color/Black_transparent_black_percent_15" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

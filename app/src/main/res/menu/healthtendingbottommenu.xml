@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item
+        android:id="@+id/menu_exit"
+        android:orderInCategory="100"
+        android:icon="@drawable/checkbox"
+        android:numericShortcut="4"
+        android:menuCategory="alternative"
+        android:title="微信"/>
+
+    <item
+        android:id="@+id/menu_fankui"
+        android:orderInCategory="100"
+        android:numericShortcut="4"
+        android:icon="@drawable/checkbox"
+        android:title="QQ空间"/>
+    <item
+        android:id="@+id/menu_about"
+        android:orderInCategory="100"
+        android:numericShortcut="4"
+        android:icon="@drawable/checkbox"
+        android:title="新浪微博"/>
+    <item
+        android:id="@+id/menu_zhinan"
+        android:orderInCategory="100"
+        android:numericShortcut="4"
+        android:icon="@drawable/checkbox"
+        android:title="腾讯微博"/>
+
+</menu>
